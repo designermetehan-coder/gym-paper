@@ -1,0 +1,225 @@
+@import "@fontsource-variable/geist";
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+/* shadcn preset bIo4l7I — style: vega · base: neutral · theme: orange · radius: none · font: Geist · icons: Tabler */
+:root {
+  --radius: 0rem;
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --primary: oklch(0.585 0.2 40);
+  --primary-foreground: oklch(0.98 0.016 73.684);
+  --secondary: oklch(0.97 0 0);
+  --secondary-foreground: oklch(0.205 0 0);
+  --muted: oklch(0.97 0 0);
+  --muted-foreground: oklch(0.556 0 0);
+  --accent: oklch(0.97 0 0);
+  --accent-foreground: oklch(0.205 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.75 0.183 55.934);
+  --chart-1: oklch(0.646 0.222 41.116);
+  --chart-2: oklch(0.556 0 0);
+  --chart-3: oklch(0.708 0 0);
+  --chart-4: oklch(0.439 0 0);
+  --chart-5: oklch(0.269 0 0);
+  --success: oklch(0.627 0.17 149.2);
+}
+
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.205 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.205 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.72 0.19 50);
+  --primary-foreground: oklch(0.2 0.04 45);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.646 0.222 41.116);
+  --chart-1: oklch(0.705 0.213 47.604);
+  --chart-2: oklch(0.708 0 0);
+  --chart-3: oklch(0.556 0 0);
+  --chart-4: oklch(0.439 0 0);
+  --chart-5: oklch(0.371 0 0);
+  --success: oklch(0.723 0.19 149.6);
+  color-scheme: dark;
+}
+
+@theme inline {
+  --font-sans: "Geist Variable", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 24px;
+  --radius-2xl: 28px;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-success: var(--success);
+}
+
+@layer base {
+  * { @apply border-border outline-ring/50; -webkit-tap-highlight-color: transparent; }
+  html, body { @apply bg-background text-foreground; overscroll-behavior-y: none; }
+  html { height: 100%; }
+  body {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -webkit-user-select: none; user-select: none; -webkit-touch-callout: none;
+    min-height: 100%;
+  }
+  input, textarea, select { -webkit-user-select: text; user-select: text; }
+  button { cursor: pointer; touch-action: manipulation; }
+  .grid { grid-template-columns: minmax(0, 1fr); }
+}
+
+@layer utilities {
+  .tabular { font-variant-numeric: tabular-nums; }
+  .pt-safe { padding-top: env(safe-area-inset-top, 0px); }
+  .pb-safe { padding-bottom: env(safe-area-inset-bottom, 0px); }
+  .px-gutter { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  .no-scrollbar { scrollbar-width: none; }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .press { transition: transform .12s ease, opacity .12s ease; }
+  .press:active { transform: scale(.97); opacity: .9; }
+  .screen-enter { animation: screen-enter .24s cubic-bezier(.32,.72,0,1); }
+}
+@keyframes screen-enter { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+
+/* Katmansız: barındıran sayfanın (artifact görüntüleyici, Safari) zemin stilini her zaman ezer */
+html, body, #root { background-color: var(--background) !important; color: var(--foreground); }
+html.dark { color-scheme: dark !important; }
+
+/* ---------- Mikro etkileşimler ---------- */
+@keyframes pop { 0% { transform: scale(.8) } 60% { transform: scale(1.12) } 100% { transform: scale(1) } }
+.check-draw path { stroke-dasharray: 24; stroke-dashoffset: 24; animation: draw .26s cubic-bezier(.65,0,.35,1) .04s forwards; }
+@keyframes draw { to { stroke-dashoffset: 0 } }
+.toast-in { animation: toast-in .38s cubic-bezier(.32,.72,0,1) both; }
+.toast-out { animation: toast-out .28s ease-in both; }
+@keyframes toast-in { from { opacity: 0; transform: translateY(14px) scale(.96) } to { opacity: 1; transform: none } }
+@keyframes toast-out { to { opacity: 0; transform: translateY(8px) scale(.98) } }
+/* Ekran açılışında kartlar sırayla yükselir */
+.stagger > * > * > * { animation: rise .42s cubic-bezier(.32,.72,0,1) both; }
+.stagger > * > * > *:nth-child(2) { animation-delay: 30ms } .stagger > * > * > *:nth-child(3) { animation-delay: 60ms }
+.stagger > * > * > *:nth-child(4) { animation-delay: 90ms } .stagger > * > * > *:nth-child(5) { animation-delay: 120ms }
+.stagger > * > * > *:nth-child(6) { animation-delay: 150ms } .stagger > * > * > *:nth-child(n+7) { animation-delay: 180ms }
+@keyframes rise { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: none } }
+.stagger .sticky { animation: none !important; }
+/* Sekme ikonu: seçilince yaylanır */
+.tab-bounce { animation: tab-bounce .42s cubic-bezier(.34,1.56,.64,1); }
+@keyframes tab-bounce { 0% { transform: scale(.82) } 100% { transform: scale(1) } }
+/* Set tamamlandı nabzı */
+.done-pulse { animation: done-pulse .5s cubic-bezier(.34,1.56,.64,1); }
+@keyframes done-pulse { 0% { transform: scale(.85) } 50% { transform: scale(1.08) } 100% { transform: scale(1) } }
+html { touch-action: manipulation; -webkit-text-size-adjust: 100%; }
+img { -webkit-user-drag: none; }
+@media (prefers-reduced-motion: reduce) { .stagger > * > * > *, .tab-bounce, .done-pulse, .toast-in, .check-draw path { animation: none !important; stroke-dashoffset: 0 } }
+
+.modal-up { animation: modal-up .46s cubic-bezier(.32,.72,0,1) both; }
+@keyframes modal-up { from { transform: translateY(100%) } to { transform: none } }
+
+/* iOS ana ekran uygulamasında tab bar altında boşluk kalmasın: zemini aşağı uzat */
+
+/* Native kabuk: üst bar ve tab bar sabit, yalnızca içerik kayar */
+html, body { height: 100dvh; max-height: 100dvh; overflow: hidden; }
+#root { height: 100%; }
+.app-shell { position: relative; height: 100%; display: flex; flex-direction: column; }
+/* Ana ekran modunda başlık durum çubuğunun (Dynamic Island) altından başlasın */
+html.standalone .navbar { padding-top: calc(max(env(safe-area-inset-top, 0px), 50px) + 16px); }
+.app-scroll { flex: 1 1 auto; min-height: 0; overflow-y: auto; overscroll-behavior-y: contain; -webkit-overflow-scrolling: touch; scroll-padding-top: var(--hdr, 0px); }
+
+/* ---------- Liquid glass tab bar: içeriğin üstünde yüzen kapsül ---------- */
+.glass-tabbar { position: absolute; left: 0; right: 0; bottom: max(10px, calc(env(safe-area-inset-bottom, 0px) - 12px)); z-index: 30; display: flex; justify-content: center; padding: 0 max(16px, env(safe-area-inset-left, 0px)); pointer-events: none; }
+.glass-pill {
+  pointer-events: auto; position: relative; width: 100%; max-width: 420px; height: 62px; padding: 6px;
+  display: grid; grid-template-columns: repeat(4, 1fr); border-radius: 999px;
+  background: color-mix(in oklab, var(--background) 62%, transparent);
+  -webkit-backdrop-filter: blur(22px) saturate(1.9); backdrop-filter: blur(22px) saturate(1.9);
+  border: 1px solid color-mix(in oklab, var(--foreground) 9%, transparent);
+  box-shadow: inset 0 1px 0 color-mix(in oklab, white 35%, transparent), inset 0 -1px 0 color-mix(in oklab, black 6%, transparent), 0 10px 30px -8px rgb(0 0 0 / .35), 0 2px 8px -2px rgb(0 0 0 / .18);
+}
+.dark .glass-pill { box-shadow: inset 0 1px 0 rgb(255 255 255 / .12), 0 12px 34px -8px rgb(0 0 0 / .7); }
+.glass-indicator {
+  position: absolute; top: 6px; bottom: 6px; left: 6px; width: calc((100% - 12px) / 4); border-radius: 999px;
+  background: color-mix(in oklab, var(--primary) 16%, transparent);
+  box-shadow: inset 0 1px 0 color-mix(in oklab, white 25%, transparent);
+  transition: transform .5s cubic-bezier(.34, 1.36, .64, 1);
+}
+@media (prefers-reduced-motion: reduce) { .glass-indicator { transition: none } }
+
+/* ---------- Hibrit liquid glass dili ---------- */
+.glass {
+  background: color-mix(in oklab, var(--background) 62%, transparent);
+  -webkit-backdrop-filter: blur(22px) saturate(1.9); backdrop-filter: blur(22px) saturate(1.9);
+  border: 1px solid color-mix(in oklab, var(--foreground) 9%, transparent);
+  box-shadow: inset 0 1px 0 color-mix(in oklab, white 30%, transparent), 0 10px 30px -10px rgb(0 0 0 / .3);
+}
+.dark .glass { box-shadow: inset 0 1px 0 rgb(255 255 255 / .1), 0 12px 34px -10px rgb(0 0 0 / .7); }
+.btn-primary-glow { box-shadow: 0 8px 20px -10px var(--primary), inset 0 1px 0 rgb(255 255 255 / .25); }
+
+/* ---------- Progressive blur: üst bar ve tab bar arkasında kademeli bulanıklık ---------- */
+.progressive-top { isolation: isolate; background: transparent; }
+.progressive-top::before {
+  content: ""; position: absolute; inset: 0 0 -22px 0; z-index: -1; pointer-events: none;
+  background: linear-gradient(to bottom, color-mix(in oklab, var(--background) 96%, transparent) 0%, color-mix(in oklab, var(--background) 92%, transparent) 72%, transparent 100%);
+  -webkit-backdrop-filter: blur(24px) saturate(1.6); backdrop-filter: blur(24px) saturate(1.6);
+  -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 74%, transparent 100%); mask-image: linear-gradient(to bottom, #000 0%, #000 74%, transparent 100%);
+}
+.progressive-top + .progressive-top::before, .navbar + * .progressive-top::before { inset: -2px 0 -22px 0; }
+.bottom-fade {
+  position: absolute; left: 0; right: 0; bottom: 0; height: 130px; z-index: 25; pointer-events: none;
+  background: linear-gradient(to top, color-mix(in oklab, var(--background) 88%, transparent) 0%, color-mix(in oklab, var(--background) 55%, transparent) 45%, transparent 100%);
+  -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px);
+  -webkit-mask-image: linear-gradient(to top, #000 35%, transparent 100%); mask-image: linear-gradient(to top, #000 35%, transparent 100%);
+}
+
+/* Erişilebilirlik: şeffaflık azaltma ve yüksek kontrast tercihleri */
+@media (prefers-reduced-transparency: reduce) {
+  .glass, .glass-pill, .progressive-top::before, .bottom-fade { -webkit-backdrop-filter: none !important; backdrop-filter: none !important; background: var(--background) !important; }
+  [data-vaul-drawer] { background: var(--background) !important; -webkit-backdrop-filter: none !important; backdrop-filter: none !important; }
+}
+@media (prefers-contrast: more) {
+  :root { --muted-foreground: oklch(0.4 0 0); --border: oklch(0.7 0 0); }
+  .dark { --muted-foreground: oklch(0.82 0 0); --border: oklch(1 0 0 / 30%); }
+}
+:focus-visible { outline: 2px solid var(--ring, var(--primary)); outline-offset: 2px; }
+
+/* iOS: odaklanınca yakınlaştırma olmasın (16px altı yazı tetikler) */
+@layer base { input, textarea, select { font-size: 16px; } }
+html { -webkit-text-size-adjust: 100%; touch-action: manipulation; }

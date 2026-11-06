@@ -1,0 +1,48 @@
+{
+  "name": "gym-paper-web",
+  "private": true,
+  "version": "0.9.0",
+  "description": "GYM Paper web app (PWA): workout, nutrition and fasting tracker.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/designermetehan-coder/gym-paper.git",
+    "directory": "apps/web"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:single": "vite build --mode single",
+    "preview": "vite preview",
+    "test": "node tests/run-unit.mjs",
+    "test:e2e": "node tests/smoke.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/geist": "^5.1.0",
+    "@supabase/supabase-js": "^2.45.4",
+    "@tabler/icons-react": "3.19.0",
+    "@zxing/browser": "0.1.5",
+    "@zxing/library": "0.21.3",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "idb-keyval": "6.2.1",
+    "immer": "10.1.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tailwind-merge": "2.5.4",
+    "vaul": "1.1.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "@vitejs/plugin-react": "4.3.4",
+    "tailwindcss": "^4.1.11",
+    "vite": "6.0.7",
+    "vite-plugin-pwa": "0.21.1",
+    "vite-plugin-singlefile": "2.1.0",
+    "playwright": "^1.56.1"
+  }
+}

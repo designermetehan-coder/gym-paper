@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# Xcode / Swift
+apps/ios/Balli.xcodeproj/
+apps/ios/Config/Signing.local.xcconfig
+DerivedData/
+xcuserdata/
+*.xcuserstate
+.build/
+.swiftpm/
+
+# Licensed exercise animations (not redistributable, see docs/ios.md)
+apps/ios/Balli/Resources/Motion/
+apps/ios/Balli/Resources/MotionWatch/
+
+# Node
+node_modules/
+dist/
+dist-single/
+apps/web/tests/.unit.bundle.mjs
+apps/web/tests/.unit.entry.js
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Tooling
+.vercel/
+supabase/.temp/

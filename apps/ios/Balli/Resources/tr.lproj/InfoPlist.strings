@@ -1,0 +1,6 @@
+/* İzin metinleri (Türkçe) — project.yml › Balli › info ile aynı tutulmalı */
+"CFBundleDisplayName" = "GYM Paper";
+"NSHealthShareUsageDescription" = "GYM Paper adımlarını, yaktığın kaloriyi, kilonu, boyunu, yaşını ve cinsiyetini Sağlık'tan okuyarak günlük kalori ihtiyacını hesaplar.";
+"NSHealthUpdateUsageDescription" = "GYM Paper tamamladığın antrenmanları, yaktığın kaloriyi ve girdiğin kiloyu Sağlık'a kaydeder.";
+"NSCameraUsageDescription" = "Paketli ürünlerin barkodunu ve paylaşılan antrenman QR kodlarını okutmak, besinlerine fotoğraf çekmek için.";
+"NSMotionUsageDescription" = "GYM Paper, adım widget'ını uygulamayı açmadan güncel tutmak için iPhone'un adım sayarını okur.";

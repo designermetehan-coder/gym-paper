@@ -1,0 +1,6626 @@
+{
+ "muscles": [
+  "Göğüs",
+  "Sırt",
+  "Omuz",
+  "Biceps",
+  "Triceps",
+  "Bacak",
+  "Kalça",
+  "Baldır",
+  "Karın",
+  "Kardiyo",
+  "Isınma",
+  "Esneme",
+  "Tüm vücut",
+  "Ön kol",
+  "Boyun"
+ ],
+ "exercises": [
+  {
+   "name": "Barbell Bench Press",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Göğüs pres (bar)",
+    "bench",
+    "bench press",
+    "düz bench",
+    "gogus pres"
+   ]
+  },
+  {
+   "name": "Incline Barbell Bench Press",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Eğimli göğüs pres (bar)",
+    "incline bench",
+    "eğik bench"
+   ]
+  },
+  {
+   "name": "Dumbbell Bench Press",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl göğüs pres",
+    "dumbell bench",
+    "dambıl bench"
+   ]
+  },
+  {
+   "name": "Incline Dumbbell Press",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Eğimli dambıl pres",
+    "incline dambıl",
+    "eğik dambıl"
+   ]
+  },
+  {
+   "name": "Decline Bench Press",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Ters eğimli göğüs pres",
+    "decline"
+   ]
+  },
+  {
+   "name": "Machine Chest Press",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Makine göğüs pres",
+    "chest press"
+   ]
+  },
+  {
+   "name": "Incline Machine Press",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": []
+  },
+  {
+   "name": "Pec Deck Fly",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kelebek",
+    "pec deck",
+    "butterfly"
+   ]
+  },
+  {
+   "name": "Dumbbell Fly",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl açış",
+    "fly"
+   ]
+  },
+  {
+   "name": "Cable Crossover",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo çapraz",
+    "crossover"
+   ]
+  },
+  {
+   "name": "Low to High Cable Fly",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": []
+  },
+  {
+   "name": "Push Up",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Şınav",
+    "sinav",
+    "push-up"
+   ]
+  },
+  {
+   "name": "Knee Push Up",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Diz üstü şınav",
+    "dizden şınav"
+   ]
+  },
+  {
+   "name": "Incline Push Up",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Eğimli şınav",
+    "yüksek şınav"
+   ]
+  },
+  {
+   "name": "Chest Dips",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Göğüs dips",
+    "paralel"
+   ]
+  },
+  {
+   "name": "Lat Pull Down",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Lat çekiş",
+    "önden çekiş",
+    "lat pulldown",
+    "pulldown"
+   ]
+  },
+  {
+   "name": "Close Grip Lat Pull Down",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dar tutuş lat çekiş"
+   ]
+  },
+  {
+   "name": "Seated Cable Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Oturarak kablo kürek",
+    "kablo row",
+    "cable row",
+    "kürek"
+   ]
+  },
+  {
+   "name": "Barbell Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Bar kürek",
+    "eğilerek kürek",
+    "bent over row",
+    "row"
+   ]
+  },
+  {
+   "name": "One Arm Dumbbell Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Tek kol dambıl kürek",
+    "dambıl row"
+   ]
+  },
+  {
+   "name": "T-Bar Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "T-bar kürek"
+   ]
+  },
+  {
+   "name": "Chest Supported Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Göğüs destekli kürek"
+   ]
+  },
+  {
+   "name": "Machine Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Makine kürek"
+   ]
+  },
+  {
+   "name": "Pull Up",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Barfiks",
+    "barfix",
+    "pull-up",
+    "pullup"
+   ]
+  },
+  {
+   "name": "Assisted Pull Up",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Destekli barfiks",
+    "supported barfiks",
+    "yardımlı barfiks",
+    "assisted barfiks",
+    "supported pull up"
+   ]
+  },
+  {
+   "name": "Machine Assisted Pull Up",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Makine destekli barfiks",
+    "supported barfiks makine",
+    "assisted barfiks makine"
+   ]
+  },
+  {
+   "name": "Band Assisted Pull Up",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Lastikli barfiks",
+    "bant destekli barfiks",
+    "band barfiks"
+   ]
+  },
+  {
+   "name": "Negative Pull Up",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 5,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Negatif barfiks",
+    "eksantrik barfiks"
+   ]
+  },
+  {
+   "name": "Chin Up",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Ters tutuş barfiks",
+    "chin-up"
+   ]
+  },
+  {
+   "name": "Inverted Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Ters kürek",
+    "australian pull up"
+   ]
+  },
+  {
+   "name": "Sumo Deadlift",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Sumo ölü kaldırış"
+   ]
+  },
+  {
+   "name": "Straight Arm Pulldown",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Düz kol çekiş"
+   ]
+  },
+  {
+   "name": "Deadlift",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Ölü kaldırış",
+    "olu kaldiris",
+    "deadlift"
+   ]
+  },
+  {
+   "name": "Back Extension",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Sırt uzatma",
+    "hiperekstansiyon",
+    "hyperextension"
+   ]
+  },
+  {
+   "name": "Overhead Press",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Omuz pres (bar)",
+    "askeri pres",
+    "military press",
+    "ohp"
+   ]
+  },
+  {
+   "name": "Seated Dumbbell Shoulder Press",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Oturarak dambıl omuz pres",
+    "omuz pres"
+   ]
+  },
+  {
+   "name": "Machine Shoulder Press",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Makine omuz pres"
+   ]
+  },
+  {
+   "name": "Arnold Press",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Arnold pres"
+   ]
+  },
+  {
+   "name": "Dumbbell Lateral Raise",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Yana açış",
+    "yan açış",
+    "lateral raise",
+    "lateral"
+   ]
+  },
+  {
+   "name": "Cable Lateral Raise",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo yana açış"
+   ]
+  },
+  {
+   "name": "Machine Lateral Raise",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Makine yana açış"
+   ]
+  },
+  {
+   "name": "Front Raise",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Öne kaldırış"
+   ]
+  },
+  {
+   "name": "Reverse Pec Deck",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Ters kelebek",
+    "arka omuz makine"
+   ]
+  },
+  {
+   "name": "Face Pull",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Yüze çekiş",
+    "face pull"
+   ]
+  },
+  {
+   "name": "Rear Delt Fly",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Arka omuz açış"
+   ]
+  },
+  {
+   "name": "Dumbbell Shrug",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Omuz silkme",
+    "shrug",
+    "trapez"
+   ]
+  },
+  {
+   "name": "Upright Row",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dik kürek",
+    "çeneye çekiş"
+   ]
+  },
+  {
+   "name": "Barbell Curl",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Bar pazı",
+    "biceps curl",
+    "pazı",
+    "curl"
+   ]
+  },
+  {
+   "name": "Dumbbell Curl",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl pazı",
+    "biceps"
+   ]
+  },
+  {
+   "name": "Hammer Curl",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Çekiç pazı",
+    "hammer"
+   ]
+  },
+  {
+   "name": "Barbell Hammer Curl",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": []
+  },
+  {
+   "name": "Preacher Curl",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Scott pazı",
+    "preacher"
+   ]
+  },
+  {
+   "name": "Incline Dumbbell Curl",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Eğimli dambıl pazı"
+   ]
+  },
+  {
+   "name": "Cable Curl",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo pazı"
+   ]
+  },
+  {
+   "name": "Concentration Curl",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Konsantrasyon pazı"
+   ]
+  },
+  {
+   "name": "V Bar Push Down",
+   "muscle": "Triceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "V bar arka kol",
+    "pushdown",
+    "triceps push down"
+   ]
+  },
+  {
+   "name": "Rope Push Down",
+   "muscle": "Triceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "İp arka kol",
+    "rope pushdown",
+    "arka kol"
+   ]
+  },
+  {
+   "name": "Overhead Cable Extension",
+   "muscle": "Triceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Baş üstü kablo arka kol"
+   ]
+  },
+  {
+   "name": "Skull Crusher",
+   "muscle": "Triceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Alın kırıcı",
+    "french press",
+    "skull"
+   ]
+  },
+  {
+   "name": "Close Grip Bench Press",
+   "muscle": "Triceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dar tutuş bench"
+   ]
+  },
+  {
+   "name": "Triceps Dips",
+   "muscle": "Triceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Arka kol dips",
+    "dips",
+    "paralel"
+   ]
+  },
+  {
+   "name": "Dumbbell Kickback",
+   "muscle": "Triceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl kickback"
+   ]
+  },
+  {
+   "name": "Overhead Dumbbell Extension",
+   "muscle": "Triceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Baş üstü dambıl arka kol"
+   ]
+  },
+  {
+   "name": "Back Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Squat",
+    "çömelme",
+    "comelme",
+    "arka squat"
+   ]
+  },
+  {
+   "name": "Front Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Ön squat"
+   ]
+  },
+  {
+   "name": "Goblet Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Goblet squat",
+    "dambıl squat"
+   ]
+  },
+  {
+   "name": "Hack Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Hack squat"
+   ]
+  },
+  {
+   "name": "Leg Press",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Bacak pres",
+    "leg press"
+   ]
+  },
+  {
+   "name": "Leg Extension",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Ön bacak",
+    "bacak uzatma",
+    "leg extension"
+   ]
+  },
+  {
+   "name": "Lying Leg Curl",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Yatarak arka bacak",
+    "leg curl",
+    "arka bacak"
+   ]
+  },
+  {
+   "name": "Seated Leg Curl",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Oturarak arka bacak"
+   ]
+  },
+  {
+   "name": "Romanian Deadlift",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Romen ölü kaldırış",
+    "rdl"
+   ]
+  },
+  {
+   "name": "Walking Lunge",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Yürüyerek hamle",
+    "lunge",
+    "hamle"
+   ]
+  },
+  {
+   "name": "Bulgarian Split Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Bulgar squat",
+    "split squat"
+   ]
+  },
+  {
+   "name": "Step Up",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Basamak çıkma",
+    "step up"
+   ]
+  },
+  {
+   "name": "Hip Thrust",
+   "muscle": "Kalça",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kalça itiş",
+    "hip thrust"
+   ]
+  },
+  {
+   "name": "Glute Bridge",
+   "muscle": "Kalça",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kalça köprüsü",
+    "köprü"
+   ]
+  },
+  {
+   "name": "Cable Kickback",
+   "muscle": "Kalça",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo kalça geri tekme"
+   ]
+  },
+  {
+   "name": "Hip Abduction Machine",
+   "muscle": "Kalça",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dış bacak makine",
+    "abductor"
+   ]
+  },
+  {
+   "name": "Hip Adduction Machine",
+   "muscle": "Kalça",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "İç bacak makine",
+    "adductor"
+   ]
+  },
+  {
+   "name": "Standing Calf Raise",
+   "muscle": "Baldır",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Ayakta baldır",
+    "baldır",
+    "calf"
+   ]
+  },
+  {
+   "name": "Seated Calf Raise",
+   "muscle": "Baldır",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Oturarak baldır"
+   ]
+  },
+  {
+   "name": "Leg Press Calf Raise",
+   "muscle": "Baldır",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Leg press baldır"
+   ]
+  },
+  {
+   "name": "Crunch",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Mekik",
+    "crunch"
+   ]
+  },
+  {
+   "name": "Leg Raise",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Bacak kaldırma",
+    "alt karın"
+   ]
+  },
+  {
+   "name": "Hanging Leg Raise",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Asılı bacak kaldırma"
+   ]
+  },
+  {
+   "name": "Cable Crunch",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo mekik"
+   ]
+  },
+  {
+   "name": "Russian Twist",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Rus dönüşü",
+    "oblik"
+   ]
+  },
+  {
+   "name": "Plank",
+   "muscle": "Karın",
+   "unit": "sn",
+   "reps": 45,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Plank",
+    "köprü bekleme"
+   ]
+  },
+  {
+   "name": "Side Plank",
+   "muscle": "Karın",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Yan plank"
+   ]
+  },
+  {
+   "name": "Dead Bug",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": []
+  },
+  {
+   "name": "Ab Wheel Rollout",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Karın tekerleği"
+   ]
+  },
+  {
+   "name": "Bicycle Crunch",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Bisiklet mekik"
+   ]
+  },
+  {
+   "name": "Brisk Walking",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 30,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "Tempolu yürüyüş",
+    "yürüyüş"
+   ]
+  },
+  {
+   "name": "Incline Treadmill Walk",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 20,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "Eğimli koşu bandı yürüyüş",
+    "koşu bandı"
+   ]
+  },
+  {
+   "name": "Koşu",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 20,
+   "sets": 1,
+   "rest": 0,
+   "tr": []
+  },
+  {
+   "name": "Bisiklet",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 20,
+   "sets": 1,
+   "rest": 0,
+   "tr": []
+  },
+  {
+   "name": "Eliptik",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 20,
+   "sets": 1,
+   "rest": 0,
+   "tr": []
+  },
+  {
+   "name": "Stair Climber",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 15,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "Merdiven makinesi"
+   ]
+  },
+  {
+   "name": "Rowing Machine",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 10,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "Kürek makinesi"
+   ]
+  },
+  {
+   "name": "Ip Atlama",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 5,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "İp atlama",
+    "jump rope"
+   ]
+  },
+  {
+   "name": "Band Internal Rotation",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 2,
+   "rest": 40,
+   "tr": []
+  },
+  {
+   "name": "Band External Rotation",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 2,
+   "rest": 40,
+   "tr": []
+  },
+  {
+   "name": "Band Pull Apart",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 2,
+   "rest": 40,
+   "tr": []
+  },
+  {
+   "name": "Prone Y Raise",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 2,
+   "rest": 40,
+   "tr": []
+  },
+  {
+   "name": "Cat Cow",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 2,
+   "rest": 40,
+   "tr": []
+  },
+  {
+   "name": "World's Greatest Stretch",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 6,
+   "sets": 2,
+   "rest": 40,
+   "tr": []
+  },
+  {
+   "name": "Arm Circles",
+   "muscle": "Isınma",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 2,
+   "rest": 40,
+   "tr": []
+  },
+  {
+   "name": "Child Pose",
+   "muscle": "Esneme",
+   "unit": "sn",
+   "reps": 50,
+   "sets": 2,
+   "rest": 30,
+   "tr": []
+  },
+  {
+   "name": "Upper Trapezius Stretch",
+   "muscle": "Esneme",
+   "unit": "sn",
+   "reps": 50,
+   "sets": 2,
+   "rest": 30,
+   "tr": []
+  },
+  {
+   "name": "Hamstring Stretch",
+   "muscle": "Esneme",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 2,
+   "rest": 30,
+   "tr": []
+  },
+  {
+   "name": "Lunge Stretch",
+   "muscle": "Esneme",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 2,
+   "rest": 30,
+   "tr": []
+  },
+  {
+   "name": "Quad Stretch",
+   "muscle": "Esneme",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 2,
+   "rest": 30,
+   "tr": []
+  },
+  {
+   "name": "Chest Doorway Stretch",
+   "muscle": "Esneme",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 2,
+   "rest": 30,
+   "tr": []
+  },
+  {
+   "name": "Pigeon Stretch",
+   "muscle": "Esneme",
+   "unit": "sn",
+   "reps": 45,
+   "sets": 2,
+   "rest": 30,
+   "tr": []
+  },
+  {
+   "name": "90 90 Hip Switches",
+   "muscle": "Esneme",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 2,
+   "rest": 15,
+   "tr": [
+    "90 90 kalça geçiş"
+   ]
+  },
+  {
+   "name": "Abdominals Stretch Variation Four",
+   "muscle": "Esneme",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 2,
+   "rest": 15,
+   "tr": [
+    "Karın esneme varyasyon dört"
+   ]
+  },
+  {
+   "name": "Abdominals Stretch Variation One",
+   "muscle": "Esneme",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 2,
+   "rest": 15,
+   "tr": [
+    "Karın esneme varyasyon bir"
+   ]
+  },
+  {
+   "name": "Abdominals Stretch Variation Three",
+   "muscle": "Esneme",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 2,
+   "rest": 15,
+   "tr": [
+    "Karın esneme varyasyon üç"
+   ]
+  },
+  {
+   "name": "Abdominals Stretch Variation Two",
+   "muscle": "Esneme",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 2,
+   "rest": 15,
+   "tr": [
+    "Karın esneme varyasyon iki"
+   ]
+  },
+  {
+   "name": "Adductor Groin Stretch",
+   "muscle": "Esneme",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 2,
+   "rest": 15,
+   "tr": [
+    "Iç bacak kasık esneme"
+   ]
+  },
+  {
+   "name": "Alternating Hammer Curl",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dönüşümlü hammer curl"
+   ]
+  },
+  {
+   "name": "Anti Gravity Press",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Anti gravity pres"
+   ]
+  },
+  {
+   "name": "Arc Trainer",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 10,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "Arc trainer"
+   ]
+  },
+  {
+   "name": "Archer Push Up",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Okçu şınav"
+   ]
+  },
+  {
+   "name": "Assault Bike",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 10,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "Assault bike"
+   ]
+  },
+  {
+   "name": "Assisted Pistol Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Assisted pistol squat"
+   ]
+  },
+  {
+   "name": "B Stance Hip Thrust",
+   "muscle": "Kalça",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "B stance hip thrust"
+   ]
+  },
+  {
+   "name": "Backpack Curls",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Sırt çantası curl"
+   ]
+  },
+  {
+   "name": "Backpack Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Sırt çantası row"
+   ]
+  },
+  {
+   "name": "Backstroke Swim",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 20,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "Sırtüstü yüzme"
+   ]
+  },
+  {
+   "name": "Band Curl",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Lastik curl"
+   ]
+  },
+  {
+   "name": "Band Glute Bridge",
+   "muscle": "Kalça",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Lastik kalça köprüsü"
+   ]
+  },
+  {
+   "name": "Band Good Morning",
+   "muscle": "Kalça",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Lastik good morning"
+   ]
+  },
+  {
+   "name": "Band High Face Pull",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Lastik yüksek face pull"
+   ]
+  },
+  {
+   "name": "Band Hip Abduction",
+   "muscle": "Kalça",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Lastik kalça açma"
+   ]
+  },
+  {
+   "name": "Band Kneeling Pulldown",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Lastik dizüstü pulldown"
+   ]
+  },
+  {
+   "name": "Band Lateral Raise",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Lastik yana açış"
+   ]
+  },
+  {
+   "name": "Band Leg Curl",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Lastik leg curl"
+   ]
+  },
+  {
+   "name": "Band Overhead Press",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Lastik baş üstü pres"
+   ]
+  },
+  {
+   "name": "Band Pull Through",
+   "muscle": "Kalça",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Lastik çekiş through"
+   ]
+  },
+  {
+   "name": "Band Pullover",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Lastik pullover"
+   ]
+  },
+  {
+   "name": "Band Romanian Deadlift",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Lastik romen deadlift"
+   ]
+  },
+  {
+   "name": "Band Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Lastik row"
+   ]
+  },
+  {
+   "name": "Band Seated Pulldown",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Lastik oturarak pulldown"
+   ]
+  },
+  {
+   "name": "Band Shoulder Dislocates",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 1,
+   "rest": 15,
+   "tr": [
+    "Lastik omuz açma"
+   ]
+  },
+  {
+   "name": "Band Shrug",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Lastik shrug"
+   ]
+  },
+  {
+   "name": "Band Single Arm Lateral Raise",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Lastik tek kol yana açış"
+   ]
+  },
+  {
+   "name": "Band Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Lastik squat"
+   ]
+  },
+  {
+   "name": "Band Straight Arm Pulldown",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Lastik düz kol pulldown"
+   ]
+  },
+  {
+   "name": "Band Tricep Kickbacks",
+   "muscle": "Triceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Lastik arka kol kickback"
+   ]
+  },
+  {
+   "name": "Band Wood Chopper",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Lastik odun kesme"
+   ]
+  },
+  {
+   "name": "Banded Ankle Dorsiflexion Mobilization",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 1,
+   "rest": 15,
+   "tr": [
+    "Lastikli ayak bileği dorsifleksiyon mobilizasyon"
+   ]
+  },
+  {
+   "name": "Banded Clamshell",
+   "muscle": "Kalça",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Lastikli clamshell"
+   ]
+  },
+  {
+   "name": "Banded Eccentric Tibialis Raise",
+   "muscle": "Baldır",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Lastikli eksantrik tibialis kaldırma"
+   ]
+  },
+  {
+   "name": "Barbell Banded Back Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Bar lastikli back squat"
+   ]
+  },
+  {
+   "name": "Barbell Behind The Back 30° Shrug",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Bar arkadan back 30 derece shrug"
+   ]
+  },
+  {
+   "name": "Barbell Bent Over Row Overhand",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Bar bükük öne eğilerek row düz tutuş"
+   ]
+  },
+  {
+   "name": "Barbell Clean And Jerk",
+   "muscle": "Tüm vücut",
+   "unit": "tekrar",
+   "reps": 8,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Bar clean ve jerk"
+   ]
+  },
+  {
+   "name": "Barbell Clean And Press",
+   "muscle": "Tüm vücut",
+   "unit": "tekrar",
+   "reps": 8,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Bar clean ve pres"
+   ]
+  },
+  {
+   "name": "Barbell Drag Curl",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Bar drag curl"
+   ]
+  },
+  {
+   "name": "Barbell Floor Press",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Bar yerde göğüs pres"
+   ]
+  },
+  {
+   "name": "Barbell Front Rack Step Up Knee Drive",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Bar ön rack step up diz itiş"
+   ]
+  },
+  {
+   "name": "Barbell Glute Bridge",
+   "muscle": "Kalça",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Bar kalça köprüsü"
+   ]
+  },
+  {
+   "name": "Barbell Hack Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Bar hack squat"
+   ]
+  },
+  {
+   "name": "Barbell High Incline Bench Press",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Bar yüksek eğimli göğüs pres"
+   ]
+  },
+  {
+   "name": "Barbell Landmine Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Bar landmine row"
+   ]
+  },
+  {
+   "name": "Barbell Lunge",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Bar lunge"
+   ]
+  },
+  {
+   "name": "Barbell Muscle Snatch",
+   "muscle": "Tüm vücut",
+   "unit": "tekrar",
+   "reps": 8,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Bar muscle snatch"
+   ]
+  },
+  {
+   "name": "Barbell Power Snatch",
+   "muscle": "Tüm vücut",
+   "unit": "tekrar",
+   "reps": 8,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Bar power snatch"
+   ]
+  },
+  {
+   "name": "Barbell Pullover",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Bar pullover"
+   ]
+  },
+  {
+   "name": "Barbell Rack Pull",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Bar rack çekiş"
+   ]
+  },
+  {
+   "name": "Barbell Rear Delt Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Bar arka omuz row"
+   ]
+  },
+  {
+   "name": "Barbell Reverse Lunge",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Bar ters lunge"
+   ]
+  },
+  {
+   "name": "Barbell Shrug",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Bar shrug"
+   ]
+  },
+  {
+   "name": "Barbell Skullcrusher",
+   "muscle": "Triceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Bar skullcrusher"
+   ]
+  },
+  {
+   "name": "Barbell Snatch",
+   "muscle": "Tüm vücut",
+   "unit": "tekrar",
+   "reps": 8,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Bar snatch"
+   ]
+  },
+  {
+   "name": "Barbell Spinal Jefferson Curl",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 1,
+   "rest": 15,
+   "tr": [
+    "Bar omurga Jefferson curl"
+   ]
+  },
+  {
+   "name": "Barbell Split Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Bar split squat"
+   ]
+  },
+  {
+   "name": "Barbell Step Up Knee Drive",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Bar step up diz itiş"
+   ]
+  },
+  {
+   "name": "Barbell Stiff Leg Deadlifts",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Bar düz bacak deadlift"
+   ]
+  },
+  {
+   "name": "Barbell Thruster",
+   "muscle": "Tüm vücut",
+   "unit": "tekrar",
+   "reps": 8,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Bar thruster"
+   ]
+  },
+  {
+   "name": "Barbell Walking Lunge",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Bar yürüyerek lunge"
+   ]
+  },
+  {
+   "name": "Barbell Wrist Curl",
+   "muscle": "Ön kol",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Bar bilek curl"
+   ]
+  },
+  {
+   "name": "Battle Ropes",
+   "muscle": "Kardiyo",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 4,
+   "rest": 30,
+   "tr": [
+    "Savaş halatı"
+   ]
+  },
+  {
+   "name": "Bayesian Curl",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Bayesian curl"
+   ]
+  },
+  {
+   "name": "Bear Crawl",
+   "muscle": "Kardiyo",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 4,
+   "rest": 30,
+   "tr": [
+    "Ayı yürüyüşü"
+   ]
+  },
+  {
+   "name": "Behind The Neck Press",
+   "muscle": "Boyun",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Arkadan boyun pres"
+   ]
+  },
+  {
+   "name": "Belt Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Kemer squat"
+   ]
+  },
+  {
+   "name": "Bent Knee Soleus Raise",
+   "muscle": "Baldır",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Bükük diz soleus kaldırma"
+   ]
+  },
+  {
+   "name": "Bird Dog",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 1,
+   "rest": 15,
+   "tr": [
+    "Bird dog"
+   ]
+  },
+  {
+   "name": "Bodyweight Alternating Lateral Lunge",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Vücut ağırlığı dönüşümlü yana lunge"
+   ]
+  },
+  {
+   "name": "Bodyweight Alternating Reverse Lunges",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Vücut ağırlığı dönüşümlü ters lunge"
+   ]
+  },
+  {
+   "name": "Bodyweight Box Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Vücut ağırlığı kutu squat"
+   ]
+  },
+  {
+   "name": "Bodyweight Deadlift",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Vücut ağırlığı deadlift"
+   ]
+  },
+  {
+   "name": "Bodyweight Deficit Reverse Lunge",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Vücut ağırlığı derin ters lunge"
+   ]
+  },
+  {
+   "name": "Bodyweight Donkey Calf Raise",
+   "muscle": "Baldır",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Vücut ağırlığı donkey baldır kaldırma"
+   ]
+  },
+  {
+   "name": "Bodyweight Elevated Push Up",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Vücut ağırlığı yükseltilmiş şınav"
+   ]
+  },
+  {
+   "name": "Bodyweight Hip Abduction",
+   "muscle": "Kalça",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Vücut ağırlığı kalça açma"
+   ]
+  },
+  {
+   "name": "Bodyweight Reverse Lunge",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Vücut ağırlığı ters lunge"
+   ]
+  },
+  {
+   "name": "Bodyweight Spinal Jefferson Curl",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 1,
+   "rest": 15,
+   "tr": [
+    "Vücut ağırlığı omurga Jefferson curl"
+   ]
+  },
+  {
+   "name": "Bodyweight Squat To Stand",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Vücut ağırlığı squat → stand"
+   ]
+  },
+  {
+   "name": "Bodyweight Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Vücut ağırlığı squat"
+   ]
+  },
+  {
+   "name": "Bounds",
+   "muscle": "Kardiyo",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 4,
+   "rest": 30,
+   "tr": [
+    "Sıçrayışlar"
+   ]
+  },
+  {
+   "name": "Box Jump",
+   "muscle": "Kardiyo",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 4,
+   "rest": 30,
+   "tr": [
+    "Kutuya sıçrama"
+   ]
+  },
+  {
+   "name": "Bradford Press",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Bradford pres"
+   ]
+  },
+  {
+   "name": "Breaststroke Swim",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 20,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "Kurbağalama yüzme"
+   ]
+  },
+  {
+   "name": "Broad Jump",
+   "muscle": "Kardiyo",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 4,
+   "rest": 30,
+   "tr": [
+    "Uzun atlama"
+   ]
+  },
+  {
+   "name": "Broomstick Pass Throughs",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 1,
+   "rest": 15,
+   "tr": [
+    "Sopa geçiş"
+   ]
+  },
+  {
+   "name": "Burpee",
+   "muscle": "Kardiyo",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 4,
+   "rest": 30,
+   "tr": [
+    "Burpee"
+   ]
+  },
+  {
+   "name": "Butterfly Swim",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 20,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "Kelebek yüzme"
+   ]
+  },
+  {
+   "name": "Cable 30° Shrug",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo 30 derece shrug"
+   ]
+  },
+  {
+   "name": "Cable Bar Face Pull",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo bar face pull"
+   ]
+  },
+  {
+   "name": "Cable Bar Pushdown",
+   "muscle": "Triceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo bar pushdown"
+   ]
+  },
+  {
+   "name": "Cable Bench Chest Fly",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo bench göğüs açış"
+   ]
+  },
+  {
+   "name": "Cable Bench Press",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo göğüs pres"
+   ]
+  },
+  {
+   "name": "Cable Bench Straight Leg Kickback",
+   "muscle": "Kalça",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo bench düz bacak kickback"
+   ]
+  },
+  {
+   "name": "Cable Chest Press",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo göğüs pres"
+   ]
+  },
+  {
+   "name": "Cable Chop",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo kesme"
+   ]
+  },
+  {
+   "name": "Cable Decline Bench Press",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo ters eğimli göğüs pres"
+   ]
+  },
+  {
+   "name": "Cable External Rotation",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 1,
+   "rest": 15,
+   "tr": [
+    "Kablo external rotasyon"
+   ]
+  },
+  {
+   "name": "Cable Front Raise",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo öne açış"
+   ]
+  },
+  {
+   "name": "Cable Hip Abduction",
+   "muscle": "Kalça",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo kalça açma"
+   ]
+  },
+  {
+   "name": "Cable Incline Bench Press",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo eğimli göğüs pres"
+   ]
+  },
+  {
+   "name": "Cable Low Single Arm Lateral Raise",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo alçak tek kol yana açış"
+   ]
+  },
+  {
+   "name": "Cable Overhead Press",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo baş üstü pres"
+   ]
+  },
+  {
+   "name": "Cable Overhead Straight Bar Extensions",
+   "muscle": "Triceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo baş üstü düz bar ekstansiyon"
+   ]
+  },
+  {
+   "name": "Cable Pallof Press",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo Pallof pres"
+   ]
+  },
+  {
+   "name": "Cable Pec Fly",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo göğüs açış"
+   ]
+  },
+  {
+   "name": "Cable Pull Through",
+   "muscle": "Kalça",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo çekiş through"
+   ]
+  },
+  {
+   "name": "Cable Rope Hammer Curl",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo rope hammer curl"
+   ]
+  },
+  {
+   "name": "Cable Rope Kneeling Face Pull",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo rope dizüstü face pull"
+   ]
+  },
+  {
+   "name": "Cable Rope Pullover",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo rope pullover"
+   ]
+  },
+  {
+   "name": "Cable Row Bar Standing Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Kablo row bar ayakta row"
+   ]
+  },
+  {
+   "name": "Cable Side Bend",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo yana eğilme"
+   ]
+  },
+  {
+   "name": "Cable Single Arm Neutral Grip Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Kablo tek kol nötr tutuş row"
+   ]
+  },
+  {
+   "name": "Cable Single Arm Rear Delt Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Kablo tek kol arka omuz row"
+   ]
+  },
+  {
+   "name": "Cable Single Arm Rope Pushdown",
+   "muscle": "Triceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo tek kol rope pushdown"
+   ]
+  },
+  {
+   "name": "Cable Single Arm Underhand Grip Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Kablo tek kol ters tutuş tutuş row"
+   ]
+  },
+  {
+   "name": "Cable Single Leg Laying Leg Curl",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo tek bacak yatarak leg curl"
+   ]
+  },
+  {
+   "name": "Cable Standing Low To High Wood Chopper",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo ayakta alçak → yüksek odun kesme"
+   ]
+  },
+  {
+   "name": "Cable Standing Single Arm Chest Press",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo ayakta tek kol göğüs pres"
+   ]
+  },
+  {
+   "name": "Cable Supinating Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Kablo supinasyonlu row"
+   ]
+  },
+  {
+   "name": "Cable Tricep Kickback",
+   "muscle": "Triceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo arka kol kickback"
+   ]
+  },
+  {
+   "name": "Cable Wood Chopper",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo odun kesme"
+   ]
+  },
+  {
+   "name": "Cable Wrist Curl",
+   "muscle": "Ön kol",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kablo bilek curl"
+   ]
+  },
+  {
+   "name": "Captains Chair Knee Raise",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kaptan sandalyesi diz çekme"
+   ]
+  },
+  {
+   "name": "Chest Supported T Bar Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Göğüs supported t bar row"
+   ]
+  },
+  {
+   "name": "Close Grip Barbell Curl",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dar tutuş bar curl"
+   ]
+  },
+  {
+   "name": "Close Grip Incline Push Up",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dar tutuş eğimli şınav"
+   ]
+  },
+  {
+   "name": "Controlled Forearm Pronation Supination",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 1,
+   "rest": 15,
+   "tr": [
+    "Kontrollü ön kol pronasyon supinasyon"
+   ]
+  },
+  {
+   "name": "Copenhagen Plank",
+   "muscle": "Karın",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 3,
+   "rest": 45,
+   "tr": [
+    "Kopenhag plank"
+   ]
+  },
+  {
+   "name": "Cossack Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Kazak squat"
+   ]
+  },
+  {
+   "name": "Cross Body Cable Tricep Extension",
+   "muscle": "Triceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Çapraz vücut kablo arka kol ekstansiyon"
+   ]
+  },
+  {
+   "name": "Cross Body Hammer Curl",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Çapraz vücut hammer curl"
+   ]
+  },
+  {
+   "name": "Cuban Press",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Küba pres"
+   ]
+  },
+  {
+   "name": "Cycling Cooldown",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 10,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "Bisiklet soğuma"
+   ]
+  },
+  {
+   "name": "Cycling Intervals",
+   "muscle": "Kardiyo",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 4,
+   "rest": 30,
+   "tr": [
+    "Bisiklet aralıkları"
+   ]
+  },
+  {
+   "name": "Cycling Sprint",
+   "muscle": "Kardiyo",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 4,
+   "rest": 30,
+   "tr": [
+    "Bisiklet sprint"
+   ]
+  },
+  {
+   "name": "Cycling Warmup",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 10,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "Bisiklet ısınma"
+   ]
+  },
+  {
+   "name": "Dead Bug Weighted",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dead bug ağırlıklı"
+   ]
+  },
+  {
+   "name": "Dead Hang",
+   "muscle": "Ön kol",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 3,
+   "rest": 45,
+   "tr": [
+    "Barda asılı kalma"
+   ]
+  },
+  {
+   "name": "Decline Crunch",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 10,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "Ters eğimli mekik"
+   ]
+  },
+  {
+   "name": "Decline Machine Chest Press",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Ters eğimli makine göğüs pres"
+   ]
+  },
+  {
+   "name": "Decline Push Up",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Ters eğimli şınav"
+   ]
+  },
+  {
+   "name": "Decline Sit Up",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Ters eğimli mekik (sit up)"
+   ]
+  },
+  {
+   "name": "Deficit Barbell Romanian Deadlift",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Derin bar romen deadlift"
+   ]
+  },
+  {
+   "name": "Deficit Deadlift",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Derin deadlift"
+   ]
+  },
+  {
+   "name": "Deficit Dumbbell Romanian Deadlift",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Derin dambıl romen deadlift"
+   ]
+  },
+  {
+   "name": "Diamond Push Ups",
+   "muscle": "Triceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Elmas şınav"
+   ]
+  },
+  {
+   "name": "Double Kettlebell Clean And Press",
+   "muscle": "Tüm vücut",
+   "unit": "tekrar",
+   "reps": 8,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Double kettlebell clean ve pres"
+   ]
+  },
+  {
+   "name": "Dumbbell Alternating Forward Lunge",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl dönüşümlü öne lunge"
+   ]
+  },
+  {
+   "name": "Dumbbell Back Extension",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl sırt ekstansiyonu"
+   ]
+  },
+  {
+   "name": "Dumbbell Bulgarian Split Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Dambıl Bulgar split squat"
+   ]
+  },
+  {
+   "name": "Dumbbell Close Grip Push Up",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl dar tutuş şınav"
+   ]
+  },
+  {
+   "name": "Dumbbell Cossack Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Dambıl kazak squat"
+   ]
+  },
+  {
+   "name": "Dumbbell Cross Body Romanian Deadlift",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Dambıl çapraz vücut romen deadlift"
+   ]
+  },
+  {
+   "name": "Dumbbell Deadlift",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Dambıl deadlift"
+   ]
+  },
+  {
+   "name": "Dumbbell Decline Bench Press",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl ters eğimli göğüs pres"
+   ]
+  },
+  {
+   "name": "Dumbbell Decline Chest Fly",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl ters eğimli göğüs açış"
+   ]
+  },
+  {
+   "name": "Dumbbell Decline Crunch Behind Head",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 10,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "Dambıl ters eğimli mekik"
+   ]
+  },
+  {
+   "name": "Dumbbell Decline Skullcrusher",
+   "muscle": "Triceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl ters eğimli skullcrusher"
+   ]
+  },
+  {
+   "name": "Dumbbell Farmer Carry",
+   "muscle": "Tüm vücut",
+   "unit": "sn",
+   "reps": 40,
+   "sets": 3,
+   "rest": 45,
+   "tr": [
+    "Dambıl çiftçi yürüyüşü"
+   ]
+  },
+  {
+   "name": "Dumbbell Feet Elevated Glute Bridge",
+   "muscle": "Kalça",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl ayak yükseltilmiş kalça köprüsü"
+   ]
+  },
+  {
+   "name": "Dumbbell Figure Four Heels Elevated Hip Thrust",
+   "muscle": "Kalça",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl dört dört topuk yükseltilmiş hip thrust"
+   ]
+  },
+  {
+   "name": "Dumbbell Front Squat Tempo",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Dambıl ön squat tempolu"
+   ]
+  },
+  {
+   "name": "Dumbbell Front Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Dambıl ön squat"
+   ]
+  },
+  {
+   "name": "Dumbbell Goblet Alternating Curtsy Lunge",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl goblet dönüşümlü reverans lunge"
+   ]
+  },
+  {
+   "name": "Dumbbell Goblet Bulgarian Split Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Dambıl goblet Bulgar split squat"
+   ]
+  },
+  {
+   "name": "Dumbbell Goblet Forward Lunge",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl goblet öne lunge"
+   ]
+  },
+  {
+   "name": "Dumbbell Goblet Reverse Lunge",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl goblet ters lunge"
+   ]
+  },
+  {
+   "name": "Dumbbell Goblet Split Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Dambıl goblet split squat"
+   ]
+  },
+  {
+   "name": "Dumbbell Halo",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl halo"
+   ]
+  },
+  {
+   "name": "Dumbbell Hammer Preacher Curl",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl hammer preacher curl"
+   ]
+  },
+  {
+   "name": "Dumbbell Heels Elevated Hip Thrust",
+   "muscle": "Kalça",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl topuk yükseltilmiş hip thrust"
+   ]
+  },
+  {
+   "name": "Dumbbell Incline Chest Fly",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl eğimli göğüs açış"
+   ]
+  },
+  {
+   "name": "Dumbbell Incline Front Raise",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl eğimli öne açış"
+   ]
+  },
+  {
+   "name": "Dumbbell Incline Hammer Curl",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl eğimli hammer curl"
+   ]
+  },
+  {
+   "name": "Dumbbell Incline Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Dambıl eğimli row"
+   ]
+  },
+  {
+   "name": "Dumbbell Lateral Lunge",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl yana lunge"
+   ]
+  },
+  {
+   "name": "Dumbbell Laying Reverse Fly",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl yatarak ters açış"
+   ]
+  },
+  {
+   "name": "Dumbbell Leg Curl",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl leg curl"
+   ]
+  },
+  {
+   "name": "Dumbbell Lying Single Arm Rear Lateral Raise",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl yatarak tek kol arka yana açış"
+   ]
+  },
+  {
+   "name": "Dumbbell Neutral Grip Bent Over Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Dambıl nötr tutuş bükük öne eğilerek row"
+   ]
+  },
+  {
+   "name": "Dumbbell Neutral High Incline Bench Press",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl nötr yüksek eğimli göğüs pres"
+   ]
+  },
+  {
+   "name": "Dumbbell Overhead Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Dambıl baş üstü squat"
+   ]
+  },
+  {
+   "name": "Dumbbell Preacher Curl",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl preacher curl"
+   ]
+  },
+  {
+   "name": "Dumbbell Pullover",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl pullover"
+   ]
+  },
+  {
+   "name": "Dumbbell Push Press",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl push pres"
+   ]
+  },
+  {
+   "name": "Dumbbell Reverse Lunge",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl ters lunge"
+   ]
+  },
+  {
+   "name": "Dumbbell Row Bilateral",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Dambıl row çift taraflı"
+   ]
+  },
+  {
+   "name": "Dumbbell Row Unilateral",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Dambıl row tek taraflı"
+   ]
+  },
+  {
+   "name": "Dumbbell Russian Twist",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl russian twist"
+   ]
+  },
+  {
+   "name": "Dumbbell Seated Full Lateral Raise",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl oturarak tam yana açış"
+   ]
+  },
+  {
+   "name": "Dumbbell Seated Lateral Raises",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl oturarak yana açış"
+   ]
+  },
+  {
+   "name": "Dumbbell Seated Rear Delt Fly",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl oturarak arka omuz açış"
+   ]
+  },
+  {
+   "name": "Dumbbell Seated Shrug",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl oturarak shrug"
+   ]
+  },
+  {
+   "name": "Dumbbell Side Bend",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl yana eğilme"
+   ]
+  },
+  {
+   "name": "Dumbbell Side Plank",
+   "muscle": "Karın",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 3,
+   "rest": 45,
+   "tr": [
+    "Dambıl yan plank"
+   ]
+  },
+  {
+   "name": "Dumbbell Single Arm Chest Press",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl tek kol göğüs pres"
+   ]
+  },
+  {
+   "name": "Dumbbell Single Arm Clean And Press",
+   "muscle": "Tüm vücut",
+   "unit": "tekrar",
+   "reps": 8,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Dambıl tek kol clean ve pres"
+   ]
+  },
+  {
+   "name": "Dumbbell Single Arm Incline Bench Preacher Curl",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl tek kol eğimli bench preacher curl"
+   ]
+  },
+  {
+   "name": "Dumbbell Single Arm Neutral Overhead Press",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl tek kol nötr baş üstü pres"
+   ]
+  },
+  {
+   "name": "Dumbbell Single Arm Upright Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Dambıl tek kol upright row"
+   ]
+  },
+  {
+   "name": "Dumbbell Single Leg Calf Raise",
+   "muscle": "Baldır",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl tek bacak baldır kaldırma"
+   ]
+  },
+  {
+   "name": "Dumbbell Single Leg Hip Thrust",
+   "muscle": "Kalça",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl tek bacak hip thrust"
+   ]
+  },
+  {
+   "name": "Dumbbell Sit Up",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl mekik (sit up)"
+   ]
+  },
+  {
+   "name": "Dumbbell Skullcrusher",
+   "muscle": "Triceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl skullcrusher"
+   ]
+  },
+  {
+   "name": "Dumbbell Spinal Jefferson Curl",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 1,
+   "rest": 15,
+   "tr": [
+    "Dambıl omurga Jefferson curl"
+   ]
+  },
+  {
+   "name": "Dumbbell Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Dambıl squat"
+   ]
+  },
+  {
+   "name": "Dumbbell Standing Single Arm Curl",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl ayakta tek kol curl"
+   ]
+  },
+  {
+   "name": "Dumbbell Standing Single Arm Hammer Curl",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl ayakta tek kol hammer curl"
+   ]
+  },
+  {
+   "name": "Dumbbell Stiff Leg Deadlift",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Dambıl düz bacak deadlift"
+   ]
+  },
+  {
+   "name": "Dumbbell Suitcase Carry",
+   "muscle": "Tüm vücut",
+   "unit": "sn",
+   "reps": 40,
+   "sets": 3,
+   "rest": 45,
+   "tr": [
+    "Dambıl tek el taşıma"
+   ]
+  },
+  {
+   "name": "Dumbbell Sumo Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Dambıl sumo squat"
+   ]
+  },
+  {
+   "name": "Dumbbell Superman",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl superman"
+   ]
+  },
+  {
+   "name": "Dumbbell Thruster",
+   "muscle": "Tüm vücut",
+   "unit": "tekrar",
+   "reps": 8,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Dambıl thruster"
+   ]
+  },
+  {
+   "name": "Dumbbell Tibialis Raise",
+   "muscle": "Baldır",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl tibialis kaldırma"
+   ]
+  },
+  {
+   "name": "Dumbbell Turkish Get Up",
+   "muscle": "Tüm vücut",
+   "unit": "tekrar",
+   "reps": 8,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Dambıl Türk kalkışı"
+   ]
+  },
+  {
+   "name": "Dumbbell Upright Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Dambıl upright row"
+   ]
+  },
+  {
+   "name": "Dumbbell Windmill",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl yel değirmeni"
+   ]
+  },
+  {
+   "name": "Dumbbell Wrist Curl",
+   "muscle": "Ön kol",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl bilek curl"
+   ]
+  },
+  {
+   "name": "Dumbbell Wrist Extension",
+   "muscle": "Ön kol",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Dambıl bilek ekstansiyonu"
+   ]
+  },
+  {
+   "name": "Eccentric Calf Lowers",
+   "muscle": "Baldır",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Eksantrik calf indirme"
+   ]
+  },
+  {
+   "name": "EZ Bar Reverse Preacher Curl",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Ez bar ters preacher curl"
+   ]
+  },
+  {
+   "name": "Fire Hydrants",
+   "muscle": "Kalça",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Fire hydrant"
+   ]
+  },
+  {
+   "name": "Floor Press",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Yerde göğüs pres"
+   ]
+  },
+  {
+   "name": "Forward Lunge",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Öne lunge"
+   ]
+  },
+  {
+   "name": "Freestyle Swim",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 20,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "Serbest yüzme"
+   ]
+  },
+  {
+   "name": "Frog Pump",
+   "muscle": "Kalça",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kurbağa pump"
+   ]
+  },
+  {
+   "name": "Frog Rock Backs",
+   "muscle": "Esneme",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 2,
+   "rest": 15,
+   "tr": [
+    "Kurbağa sallanma geri"
+   ]
+  },
+  {
+   "name": "Front Foot Elevated Split Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Ön foot yükseltilmiş split squat"
+   ]
+  },
+  {
+   "name": "Front Raise And Pullover",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Öne açış ve pullover"
+   ]
+  },
+  {
+   "name": "Glute Kickback Machine",
+   "muscle": "Kalça",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kalça kickback makine"
+   ]
+  },
+  {
+   "name": "Goblet Squat Prying Hold",
+   "muscle": "Bacak",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 3,
+   "rest": 45,
+   "tr": [
+    "Goblet squat açarak bekletme"
+   ]
+  },
+  {
+   "name": "Good Mornings",
+   "muscle": "Kalça",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Good morning"
+   ]
+  },
+  {
+   "name": "Half Kneeling Hip Flexor Rock",
+   "muscle": "Esneme",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 2,
+   "rest": 15,
+   "tr": [
+    "Half dizüstü kalça fleksör sallanma"
+   ]
+  },
+  {
+   "name": "Hammer Strength High Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Hammer Strength yüksek row"
+   ]
+  },
+  {
+   "name": "Hammer Strength Iso Lateral Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Hammer Strength iso yana row"
+   ]
+  },
+  {
+   "name": "Hamstring Curl",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Arka bacak curl"
+   ]
+  },
+  {
+   "name": "Hand Plank",
+   "muscle": "Karın",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 3,
+   "rest": 45,
+   "tr": [
+    "Hand plank"
+   ]
+  },
+  {
+   "name": "Hang Clean",
+   "muscle": "Tüm vücut",
+   "unit": "tekrar",
+   "reps": 8,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Hang clean"
+   ]
+  },
+  {
+   "name": "Hang Power Clean",
+   "muscle": "Tüm vücut",
+   "unit": "tekrar",
+   "reps": 8,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Hang power clean"
+   ]
+  },
+  {
+   "name": "Hang Snatch",
+   "muscle": "Tüm vücut",
+   "unit": "tekrar",
+   "reps": 8,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Hang snatch"
+   ]
+  },
+  {
+   "name": "Heel And Toe Walks",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 1,
+   "rest": 15,
+   "tr": [
+    "Topuk ve parmak yürüyüşü"
+   ]
+  },
+  {
+   "name": "Heel Elevated Dumbbell Front Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Topuk yükseltilmiş dambıl ön squat"
+   ]
+  },
+  {
+   "name": "Hiking",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 20,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "Doğa yürüyüşü"
+   ]
+  },
+  {
+   "name": "Hill Climb Repeats",
+   "muscle": "Kardiyo",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 4,
+   "rest": 30,
+   "tr": [
+    "Yokuş tekrarları"
+   ]
+  },
+  {
+   "name": "Hip Circles",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 1,
+   "rest": 15,
+   "tr": [
+    "Kalça çevirme"
+   ]
+  },
+  {
+   "name": "Hip Hinge Drill",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 1,
+   "rest": 15,
+   "tr": [
+    "Kalça hinge drili"
+   ]
+  },
+  {
+   "name": "Hip Hinge Speed Romanian Deadlift",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Kalça hinge hızlı romen deadlift"
+   ]
+  },
+  {
+   "name": "Horizontal Leg Press Calf Press",
+   "muscle": "Baldır",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Horizontal leg press baldır presi"
+   ]
+  },
+  {
+   "name": "Incline Dumbbell Fly With Twist",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Eğimli dambıl açış ile twist"
+   ]
+  },
+  {
+   "name": "Incline Push Up Depth Jump",
+   "muscle": "Tüm vücut",
+   "unit": "tekrar",
+   "reps": 8,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Eğimli şınav derinlik sıçrama"
+   ]
+  },
+  {
+   "name": "JM Press",
+   "muscle": "Triceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "JM pres"
+   ]
+  },
+  {
+   "name": "Jump Squats",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Sıçramalı squat"
+   ]
+  },
+  {
+   "name": "Jumping Jack",
+   "muscle": "Kardiyo",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 4,
+   "rest": 30,
+   "tr": [
+    "Jumping jack"
+   ]
+  },
+  {
+   "name": "Kettlebell Alternating Curtsy Lunge",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kettlebell dönüşümlü reverans lunge"
+   ]
+  },
+  {
+   "name": "Kettlebell Assisted Bulgarian Split Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Kettlebell assisted Bulgar split squat"
+   ]
+  },
+  {
+   "name": "Kettlebell Bench Press",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kettlebell göğüs pres"
+   ]
+  },
+  {
+   "name": "Kettlebell Calf Raise",
+   "muscle": "Baldır",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kettlebell baldır kaldırma"
+   ]
+  },
+  {
+   "name": "Kettlebell Curl",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kettlebell curl"
+   ]
+  },
+  {
+   "name": "Kettlebell Farmers Carry",
+   "muscle": "Tüm vücut",
+   "unit": "sn",
+   "reps": 40,
+   "sets": 3,
+   "rest": 45,
+   "tr": [
+    "Kettlebell çiftçi yürüyüşü"
+   ]
+  },
+  {
+   "name": "Kettlebell Front Raise",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kettlebell öne açış"
+   ]
+  },
+  {
+   "name": "Kettlebell Goblet Curl",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kettlebell goblet curl"
+   ]
+  },
+  {
+   "name": "Kettlebell Goblet Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Kettlebell goblet squat"
+   ]
+  },
+  {
+   "name": "Kettlebell Gorilla Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Kettlebell gorilla row"
+   ]
+  },
+  {
+   "name": "Kettlebell Halo",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kettlebell halo"
+   ]
+  },
+  {
+   "name": "Kettlebell Hip Thrust",
+   "muscle": "Kalça",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kettlebell hip thrust"
+   ]
+  },
+  {
+   "name": "Kettlebell Incline Bench Press",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kettlebell eğimli göğüs pres"
+   ]
+  },
+  {
+   "name": "Kettlebell Push Press",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kettlebell push pres"
+   ]
+  },
+  {
+   "name": "Kettlebell Renegade Rows",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Kettlebell renegade row"
+   ]
+  },
+  {
+   "name": "Kettlebell Romanian Deadlift",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Kettlebell romen deadlift"
+   ]
+  },
+  {
+   "name": "Kettlebell Row Single",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Kettlebell row tek"
+   ]
+  },
+  {
+   "name": "Kettlebell Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Kettlebell row"
+   ]
+  },
+  {
+   "name": "Kettlebell Seated Overhead Press",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kettlebell oturarak baş üstü pres"
+   ]
+  },
+  {
+   "name": "Kettlebell Shrug",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kettlebell shrug"
+   ]
+  },
+  {
+   "name": "Kettlebell Single Arm Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Kettlebell tek kol row"
+   ]
+  },
+  {
+   "name": "Kettlebell Spinal Jefferson Curl",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 1,
+   "rest": 15,
+   "tr": [
+    "Kettlebell omurga Jefferson curl"
+   ]
+  },
+  {
+   "name": "Kettlebell Suitcase Carry",
+   "muscle": "Tüm vücut",
+   "unit": "sn",
+   "reps": 40,
+   "sets": 3,
+   "rest": 45,
+   "tr": [
+    "Kettlebell tek el taşıma"
+   ]
+  },
+  {
+   "name": "Kettlebell Sumo Deadlift",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Kettlebell sumo deadlift"
+   ]
+  },
+  {
+   "name": "Kettlebell Swing",
+   "muscle": "Tüm vücut",
+   "unit": "tekrar",
+   "reps": 8,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Kettlebell swing"
+   ]
+  },
+  {
+   "name": "Kettlebell Thruster",
+   "muscle": "Tüm vücut",
+   "unit": "tekrar",
+   "reps": 8,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Kettlebell thruster"
+   ]
+  },
+  {
+   "name": "Kettlebell Turkish Get Up",
+   "muscle": "Tüm vücut",
+   "unit": "tekrar",
+   "reps": 8,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Kettlebell Türk kalkışı"
+   ]
+  },
+  {
+   "name": "Kettlebell Walking Lunges",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kettlebell yürüyerek lunge"
+   ]
+  },
+  {
+   "name": "Kettlebell Windmill",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kettlebell yel değirmeni"
+   ]
+  },
+  {
+   "name": "Kickstand Dumbbell Romanian Deadlift",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Kickstand dambıl romen deadlift"
+   ]
+  },
+  {
+   "name": "Landmine Press",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Landmine pres"
+   ]
+  },
+  {
+   "name": "Lateral Raise To Front Raise",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Yana açış → öne açış"
+   ]
+  },
+  {
+   "name": "Leaning Single Arm Dumbbell Lateral Raise",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Yaslanarak tek kol dambıl yana açış"
+   ]
+  },
+  {
+   "name": "Leg Swings Front To Back",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 1,
+   "rest": 15,
+   "tr": [
+    "Bacak sallama ön → back"
+   ]
+  },
+  {
+   "name": "Lever Lateral Wide Pulldown",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kaldıraç yana geniş pulldown"
+   ]
+  },
+  {
+   "name": "Loaded Wrist Extensor Eccentric",
+   "muscle": "Ön kol",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Yüklü bilek ekstansör eksantrik"
+   ]
+  },
+  {
+   "name": "Loaded Wrist Flexor Eccentric",
+   "muscle": "Ön kol",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Yüklü bilek fleksör eksantrik"
+   ]
+  },
+  {
+   "name": "Long Run",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 20,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "Uzun koşu"
+   ]
+  },
+  {
+   "name": "Lunge Sprint",
+   "muscle": "Kardiyo",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 4,
+   "rest": 30,
+   "tr": [
+    "Lunge sprint"
+   ]
+  },
+  {
+   "name": "Lunge Walking",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Lunge yürüyerek"
+   ]
+  },
+  {
+   "name": "Lying Cambered Barbell Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Yatarak kavisli bar row"
+   ]
+  },
+  {
+   "name": "Lying Single Arm Lateral Raise",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Yatarak tek kol yana açış"
+   ]
+  },
+  {
+   "name": "Machine 45° Back Extension",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Makine 45 derece sırt ekstansiyonu"
+   ]
+  },
+  {
+   "name": "Machine Back Extension",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Makine sırt ekstansiyonu"
+   ]
+  },
+  {
+   "name": "Machine Crunch",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 10,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "Makine mekik"
+   ]
+  },
+  {
+   "name": "Machine Dips",
+   "muscle": "Triceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Makine dips"
+   ]
+  },
+  {
+   "name": "Machine Face Pulls",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Makine face pulls"
+   ]
+  },
+  {
+   "name": "Machine Front Military Press",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Makine ön military pres"
+   ]
+  },
+  {
+   "name": "Machine Goblet Sissy Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Makine goblet sissy squat"
+   ]
+  },
+  {
+   "name": "Machine Hip Thrust",
+   "muscle": "Kalça",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Makine hip thrust"
+   ]
+  },
+  {
+   "name": "Machine Horizontal Leg Press",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Makine horizontal leg press"
+   ]
+  },
+  {
+   "name": "Machine Lat Pullover",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Makine lat pullover"
+   ]
+  },
+  {
+   "name": "Machine Plate Loaded Leg Extension",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Makine plaka yüklü leg extension"
+   ]
+  },
+  {
+   "name": "Machine Plate Loaded T Bar Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Makine plaka yüklü t bar row"
+   ]
+  },
+  {
+   "name": "Machine Preacher Curl",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Makine preacher curl"
+   ]
+  },
+  {
+   "name": "Machine Pulldown",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Makine pulldown"
+   ]
+  },
+  {
+   "name": "Machine Tricep Extension",
+   "muscle": "Triceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Makine arka kol ekstansiyon"
+   ]
+  },
+  {
+   "name": "Machine Underhand Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Makine ters tutuş row"
+   ]
+  },
+  {
+   "name": "Man Maker",
+   "muscle": "Tüm vücut",
+   "unit": "tekrar",
+   "reps": 8,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Man maker"
+   ]
+  },
+  {
+   "name": "Meadows Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Meadows row"
+   ]
+  },
+  {
+   "name": "Medicine Ball Throw",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Sağlık topu atışı"
+   ]
+  },
+  {
+   "name": "Mountain Climber",
+   "muscle": "Kardiyo",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 4,
+   "rest": 30,
+   "tr": [
+    "Mountain climber"
+   ]
+  },
+  {
+   "name": "Muscle Up",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Muscle up"
+   ]
+  },
+  {
+   "name": "Neck Curl",
+   "muscle": "Boyun",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Boyun fleksiyonu"
+   ]
+  },
+  {
+   "name": "Neck Extension",
+   "muscle": "Boyun",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Boyun ekstansiyonu"
+   ]
+  },
+  {
+   "name": "Neutral Grip Dumbbell Bench Press",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Nötr tutuş dambıl göğüs pres"
+   ]
+  },
+  {
+   "name": "Neutral Grip Lat Pulldown",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Nötr tutuş lat pulldown"
+   ]
+  },
+  {
+   "name": "Neutral Grip Pull Up",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Nötr tutuş barfiks"
+   ]
+  },
+  {
+   "name": "Nordic Hamstring Curl",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Nordic arka bacak curl"
+   ]
+  },
+  {
+   "name": "Open Book Rotation",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 1,
+   "rest": 15,
+   "tr": [
+    "Açık kitap rotasyon"
+   ]
+  },
+  {
+   "name": "Open Book Rotations",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 1,
+   "rest": 15,
+   "tr": [
+    "Açık kitap rotasyon"
+   ]
+  },
+  {
+   "name": "Pallof Press",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Pallof pres"
+   ]
+  },
+  {
+   "name": "Pause Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Duraklamalı squat"
+   ]
+  },
+  {
+   "name": "Pendlay Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Pendlay row"
+   ]
+  },
+  {
+   "name": "Pendulum Squat V Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Pendulum squat V squat"
+   ]
+  },
+  {
+   "name": "Pike Push Up",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Pike şınav"
+   ]
+  },
+  {
+   "name": "Pistol Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Pistol squat"
+   ]
+  },
+  {
+   "name": "Plate Forward Lunge",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Plaka öne lunge"
+   ]
+  },
+  {
+   "name": "Plate Front Raise",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Plaka öne açış"
+   ]
+  },
+  {
+   "name": "Plate Pinch",
+   "muscle": "Ön kol",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Plaka sıkıştırma"
+   ]
+  },
+  {
+   "name": "Plyometric Kettlebell Push Up",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Pliometrik kettlebell şınav"
+   ]
+  },
+  {
+   "name": "Pogo Hops",
+   "muscle": "Kardiyo",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 4,
+   "rest": 30,
+   "tr": [
+    "Pogo sekme"
+   ]
+  },
+  {
+   "name": "Power Clean",
+   "muscle": "Tüm vücut",
+   "unit": "tekrar",
+   "reps": 8,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Power clean"
+   ]
+  },
+  {
+   "name": "Press Sit Up",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Pres mekik (sit up)"
+   ]
+  },
+  {
+   "name": "Prone Lateral Raises",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Prone yana açış"
+   ]
+  },
+  {
+   "name": "Prying Goblet Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Açarak goblet squat"
+   ]
+  },
+  {
+   "name": "Push Jerk",
+   "muscle": "Tüm vücut",
+   "unit": "tekrar",
+   "reps": 8,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Push jerk"
+   ]
+  },
+  {
+   "name": "Quadruped Thoracic Rotation",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 1,
+   "rest": 15,
+   "tr": [
+    "Dört ayak göğüs omurgası rotasyon"
+   ]
+  },
+  {
+   "name": "Reverse Crunch",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 10,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "Ters mekik"
+   ]
+  },
+  {
+   "name": "Reverse Grip Barbell Bench Press",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Ters tutuş bar göğüs pres"
+   ]
+  },
+  {
+   "name": "Reverse Grip Barbell Curl",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Ters tutuş bar curl"
+   ]
+  },
+  {
+   "name": "Reverse Grip Incline Push Up",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Ters tutuş eğimli şınav"
+   ]
+  },
+  {
+   "name": "Reverse Grip Tricep Pushdown",
+   "muscle": "Triceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Ters tutuş arka kol pushdown"
+   ]
+  },
+  {
+   "name": "Reverse Hack Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Ters hack squat"
+   ]
+  },
+  {
+   "name": "Reverse Hyperextension",
+   "muscle": "Kalça",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Ters hiperekstansiyon"
+   ]
+  },
+  {
+   "name": "RKC Plank",
+   "muscle": "Karın",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 3,
+   "rest": 45,
+   "tr": [
+    "Rkc plank"
+   ]
+  },
+  {
+   "name": "Romanian Deadlift Hamstring Sweeps",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Romen deadlift arka bacak süpürme"
+   ]
+  },
+  {
+   "name": "Rowing Intervals",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Kürek aralıkları"
+   ]
+  },
+  {
+   "name": "Rowing Sprint",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Kürek sprint"
+   ]
+  },
+  {
+   "name": "Running Cooldown",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 10,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "Koşu soğuma"
+   ]
+  },
+  {
+   "name": "Running Intervals",
+   "muscle": "Kardiyo",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 4,
+   "rest": 30,
+   "tr": [
+    "Koşu aralıkları"
+   ]
+  },
+  {
+   "name": "Scapular Pull Up",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 1,
+   "rest": 15,
+   "tr": [
+    "Kürek kemiği barfiks"
+   ]
+  },
+  {
+   "name": "Seal Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Seal row"
+   ]
+  },
+  {
+   "name": "Seated Ankle Circles",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 1,
+   "rest": 15,
+   "tr": [
+    "Oturarak ayak bileği çevirme"
+   ]
+  },
+  {
+   "name": "Seated Barbell Military Press",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Oturarak bar military pres"
+   ]
+  },
+  {
+   "name": "Seated Chin Tuck Neck Retraction",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 1,
+   "rest": 15,
+   "tr": [
+    "Oturarak çene içe çekme boyun geri çekme"
+   ]
+  },
+  {
+   "name": "Seated Dumbbell Curl",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Oturarak dambıl curl"
+   ]
+  },
+  {
+   "name": "Seated Lateral Neck Flexion Hold",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 1,
+   "rest": 15,
+   "tr": [
+    "Oturarak yana boyun fleksiyon bekletme"
+   ]
+  },
+  {
+   "name": "Seated Pelvic Tilt Anterior Posterior",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 1,
+   "rest": 15,
+   "tr": [
+    "Oturarak pelvik tilt ön arka"
+   ]
+  },
+  {
+   "name": "Seated Shoulder Rolls Scapular Retraction",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 1,
+   "rest": 15,
+   "tr": [
+    "Oturarak omuz döndürme kürek kemiği geri çekme"
+   ]
+  },
+  {
+   "name": "Seated Thoracic Extension Chest Opener",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 1,
+   "rest": 15,
+   "tr": [
+    "Oturarak göğüs omurgası ekstansiyon göğüs açıcı"
+   ]
+  },
+  {
+   "name": "Seated Wrist Flexor Stretch",
+   "muscle": "Esneme",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 2,
+   "rest": 15,
+   "tr": [
+    "Oturarak bilek fleksör esneme"
+   ]
+  },
+  {
+   "name": "Selectorized Torso Rotation Machine",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Ağırlık seçmeli gövde rotasyon makine"
+   ]
+  },
+  {
+   "name": "Shadow Boxing",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 10,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "Gölge boksu"
+   ]
+  },
+  {
+   "name": "Side Plank Lateral Raise",
+   "muscle": "Karın",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 3,
+   "rest": 45,
+   "tr": [
+    "Yan plank yana açış"
+   ]
+  },
+  {
+   "name": "Single Arm Cable Fly",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Tek kol kablo açış"
+   ]
+  },
+  {
+   "name": "Single Arm Dumbbell Bench Press",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Tek kol dambıl göğüs pres"
+   ]
+  },
+  {
+   "name": "Single Arm Dumbbell Overhead Press",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Tek kol dambıl baş üstü pres"
+   ]
+  },
+  {
+   "name": "Single Arm Incline Lateral Raise",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Tek kol eğimli yana açış"
+   ]
+  },
+  {
+   "name": "Single Arm Kettlebell Military Press To Side",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Tek kol kettlebell military pres → yan"
+   ]
+  },
+  {
+   "name": "Single Arm Landmine Press",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Tek kol landmine pres"
+   ]
+  },
+  {
+   "name": "Single Arm Landmine Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Tek kol landmine row"
+   ]
+  },
+  {
+   "name": "Single Arm Lat Pulldown",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Tek kol lat pulldown"
+   ]
+  },
+  {
+   "name": "Single Arm Overhead Cable Extension",
+   "muscle": "Triceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Tek kol baş üstü kablo ekstansiyon"
+   ]
+  },
+  {
+   "name": "Single Arm Tricep Extension",
+   "muscle": "Triceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Tek kol arka kol ekstansiyon"
+   ]
+  },
+  {
+   "name": "Single Leg Back Extension",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Tek bacak sırt ekstansiyonu"
+   ]
+  },
+  {
+   "name": "Single Leg Balance Reach",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 1,
+   "rest": 15,
+   "tr": [
+    "Tek bacak denge uzanma"
+   ]
+  },
+  {
+   "name": "Single Leg Balance",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 1,
+   "rest": 15,
+   "tr": [
+    "Tek bacak denge"
+   ]
+  },
+  {
+   "name": "Single Leg Barbell Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Tek bacak bar squat"
+   ]
+  },
+  {
+   "name": "Single Leg Bound",
+   "muscle": "Kardiyo",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 4,
+   "rest": 30,
+   "tr": [
+    "Tek bacak sıçrayış"
+   ]
+  },
+  {
+   "name": "Single Leg Dumbbell Romanian Deadlift",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Tek bacak dambıl romen deadlift"
+   ]
+  },
+  {
+   "name": "Single Leg Glute Bridge",
+   "muscle": "Kalça",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Tek bacak kalça köprüsü"
+   ]
+  },
+  {
+   "name": "Single Leg Hip Thrust",
+   "muscle": "Kalça",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Tek bacak hip thrust"
+   ]
+  },
+  {
+   "name": "Single Leg Hop",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 10,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "Tek bacak sekme"
+   ]
+  },
+  {
+   "name": "Single Leg Kettlebell Romanian Deadlift Deficit",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Tek bacak kettlebell romen deadlift derin"
+   ]
+  },
+  {
+   "name": "Single Leg Press",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Tek bacak pres"
+   ]
+  },
+  {
+   "name": "Single Leg Standing Calf Raise",
+   "muscle": "Baldır",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Tek bacak ayakta baldır kaldırma"
+   ]
+  },
+  {
+   "name": "Single Leg Step Down",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Tek bacak step down"
+   ]
+  },
+  {
+   "name": "Single Legged Romanian Deadlifts",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Tek bacak romen deadlift"
+   ]
+  },
+  {
+   "name": "Sissy Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Sissy squat"
+   ]
+  },
+  {
+   "name": "Sit Up",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Mekik (sit up)"
+   ]
+  },
+  {
+   "name": "Skater Bound",
+   "muscle": "Kardiyo",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 4,
+   "rest": 30,
+   "tr": [
+    "Paten sıçrayış"
+   ]
+  },
+  {
+   "name": "SkiErg",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 10,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "SkiErg"
+   ]
+  },
+  {
+   "name": "Sled Pull",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 10,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "Kızak çekme"
+   ]
+  },
+  {
+   "name": "Sled Push",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 10,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "Kızak itme"
+   ]
+  },
+  {
+   "name": "Slider Leg Curl",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Kaydırmalı leg curl"
+   ]
+  },
+  {
+   "name": "Smith Machine Bench Press",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Smith makine göğüs pres"
+   ]
+  },
+  {
+   "name": "Smith Machine Bent Over Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Smith makine bükük öne eğilerek row"
+   ]
+  },
+  {
+   "name": "Smith Machine Calf Raise",
+   "muscle": "Baldır",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Smith makine baldır kaldırma"
+   ]
+  },
+  {
+   "name": "Smith Machine Close Grip Bench Press",
+   "muscle": "Triceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Smith makine dar tutuş göğüs pres"
+   ]
+  },
+  {
+   "name": "Smith Machine Decline Bench Press",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Smith makine ters eğimli göğüs pres"
+   ]
+  },
+  {
+   "name": "Smith Machine Front Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Smith makine ön squat"
+   ]
+  },
+  {
+   "name": "Smith Machine Incline Bench Press",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Smith makine eğimli göğüs pres"
+   ]
+  },
+  {
+   "name": "Smith Machine Overhead Press",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Smith makine baş üstü pres"
+   ]
+  },
+  {
+   "name": "Smith Machine Seated Overhead Press",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Smith makine oturarak baş üstü pres"
+   ]
+  },
+  {
+   "name": "Smith Machine Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Smith makine squat"
+   ]
+  },
+  {
+   "name": "Smith Machine Standing Shrugs",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Smith makine ayakta shrug"
+   ]
+  },
+  {
+   "name": "Smith Machine Sumo Romanian Deadlift",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Smith makine sumo romen deadlift"
+   ]
+  },
+  {
+   "name": "Snap Down Landing",
+   "muscle": "Tüm vücut",
+   "unit": "tekrar",
+   "reps": 8,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Snap down iniş"
+   ]
+  },
+  {
+   "name": "Snatch Grip Deadlift",
+   "muscle": "Tüm vücut",
+   "unit": "tekrar",
+   "reps": 8,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Snatch tutuş deadlift"
+   ]
+  },
+  {
+   "name": "Snatch Grip High Pull",
+   "muscle": "Tüm vücut",
+   "unit": "tekrar",
+   "reps": 8,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Snatch tutuş yüksek çekiş"
+   ]
+  },
+  {
+   "name": "Snatch Pull",
+   "muscle": "Tüm vücut",
+   "unit": "tekrar",
+   "reps": 8,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Snatch çekiş"
+   ]
+  },
+  {
+   "name": "Spider Curl",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Spider curl"
+   ]
+  },
+  {
+   "name": "Split Jerk",
+   "muscle": "Tüm vücut",
+   "unit": "tekrar",
+   "reps": 8,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Split jerk"
+   ]
+  },
+  {
+   "name": "Split Squat Isometric Hold",
+   "muscle": "Bacak",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 3,
+   "rest": 45,
+   "tr": [
+    "Split squat izometrik bekletme"
+   ]
+  },
+  {
+   "name": "Squat Thrusts",
+   "muscle": "Kardiyo",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 4,
+   "rest": 30,
+   "tr": [
+    "Squat thrust"
+   ]
+  },
+  {
+   "name": "Stability Ball Leg Curl",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Pilates topu leg curl"
+   ]
+  },
+  {
+   "name": "Standing Alternating Dumbbell Overhead Press",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Ayakta dönüşümlü dambıl baş üstü pres"
+   ]
+  },
+  {
+   "name": "Standing Cable Hip Abduction",
+   "muscle": "Kalça",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Ayakta kablo kalça açma"
+   ]
+  },
+  {
+   "name": "Standing Dumbbell Overhead Press",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Ayakta dambıl baş üstü pres"
+   ]
+  },
+  {
+   "name": "Standing Neutral Grip Dumbbell Overhead Press",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Ayakta nötr tutuş dambıl baş üstü pres"
+   ]
+  },
+  {
+   "name": "Steady State Ride",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 20,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "Sabit tempo bisiklet"
+   ]
+  },
+  {
+   "name": "Step Down To Balance",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 1,
+   "rest": 15,
+   "tr": [
+    "Step down → denge"
+   ]
+  },
+  {
+   "name": "Straight Arm Rope Pulldown Light",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Düz kol rope pulldown hafif"
+   ]
+  },
+  {
+   "name": "Straight Bar Bench Mid Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Düz bar bench orta row"
+   ]
+  },
+  {
+   "name": "Supermans",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Superman"
+   ]
+  },
+  {
+   "name": "Swim Kick Drill",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 20,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "Yüzme ayak drili"
+   ]
+  },
+  {
+   "name": "Swim Pull Drill",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 20,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "Yüzme kol drili"
+   ]
+  },
+  {
+   "name": "Swim Sprint Intervals",
+   "muscle": "Kardiyo",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 4,
+   "rest": 30,
+   "tr": [
+    "Yüzme sprint aralıkları"
+   ]
+  },
+  {
+   "name": "Tate Press",
+   "muscle": "Triceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Tate pres"
+   ]
+  },
+  {
+   "name": "Tempo Run",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 10,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "Tempo koşusu"
+   ]
+  },
+  {
+   "name": "Thoracic Extension Over Foam Roller",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 1,
+   "rest": 15,
+   "tr": [
+    "Göğüs omurgası ekstansiyon öne eğilerek köpük rulo"
+   ]
+  },
+  {
+   "name": "Tibialis Raise",
+   "muscle": "Baldır",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Tibialis kaldırma"
+   ]
+  },
+  {
+   "name": "Toes To Bar",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Ayak parmakları → bar"
+   ]
+  },
+  {
+   "name": "Towel Doorframe Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Havlu doorframe row"
+   ]
+  },
+  {
+   "name": "Towel Isometric Curls",
+   "muscle": "Biceps",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 3,
+   "rest": 45,
+   "tr": [
+    "Havlu izometrik curl"
+   ]
+  },
+  {
+   "name": "Towel Slide Leg Curl",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Havlu slide leg curl"
+   ]
+  },
+  {
+   "name": "Trail Run",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 20,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "Arazi koşusu"
+   ]
+  },
+  {
+   "name": "Trap Bar Carry",
+   "muscle": "Tüm vücut",
+   "unit": "sn",
+   "reps": 40,
+   "sets": 3,
+   "rest": 45,
+   "tr": [
+    "Trap bar taşıma"
+   ]
+  },
+  {
+   "name": "Trap Bar Deadlift",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Trap bar deadlift"
+   ]
+  },
+  {
+   "name": "Trap Bar Shrug",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Trap bar shrug"
+   ]
+  },
+  {
+   "name": "TRX Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "TRX row"
+   ]
+  },
+  {
+   "name": "TRX Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "TRX squat"
+   ]
+  },
+  {
+   "name": "Tuck Jump",
+   "muscle": "Kardiyo",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 4,
+   "rest": 30,
+   "tr": [
+    "Diz çekerek sıçrama"
+   ]
+  },
+  {
+   "name": "Turkish Get Up",
+   "muscle": "Tüm vücut",
+   "unit": "tekrar",
+   "reps": 8,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Türk kalkışı"
+   ]
+  },
+  {
+   "name": "Two Arm Kettlebell Military Press",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Çift kol kettlebell military pres"
+   ]
+  },
+  {
+   "name": "Underhand Barbell Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Ters tutuş bar row"
+   ]
+  },
+  {
+   "name": "V Up",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "V up"
+   ]
+  },
+  {
+   "name": "Versaclimber",
+   "muscle": "Kardiyo",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 4,
+   "rest": 30,
+   "tr": [
+    "VersaClimber"
+   ]
+  },
+  {
+   "name": "Walking Knee Hugs",
+   "muscle": "Isınma",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 1,
+   "rest": 15,
+   "tr": [
+    "Yürüyerek diz sarılma"
+   ]
+  },
+  {
+   "name": "Walking Lunge With Twist",
+   "muscle": "Kardiyo",
+   "unit": "dk",
+   "reps": 10,
+   "sets": 1,
+   "rest": 0,
+   "tr": [
+    "Yürüyerek lunge ile twist"
+   ]
+  },
+  {
+   "name": "Wall Ball",
+   "muscle": "Tüm vücut",
+   "unit": "tekrar",
+   "reps": 8,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Wall ball"
+   ]
+  },
+  {
+   "name": "Wall Sit",
+   "muscle": "Bacak",
+   "unit": "sn",
+   "reps": 30,
+   "sets": 3,
+   "rest": 45,
+   "tr": [
+    "Duvarda oturma"
+   ]
+  },
+  {
+   "name": "Weighted Parallel Bar Straight Leg Raise",
+   "muscle": "Karın",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Ağırlıklı parallel bar düz bacak kaldırma"
+   ]
+  },
+  {
+   "name": "Weighted Pull Ups",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Ağırlıklı barfiks"
+   ]
+  },
+  {
+   "name": "Wide Grip Barbell Bench Press",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Geniş tutuş bar göğüs pres"
+   ]
+  },
+  {
+   "name": "Wide Grip Barbell Curl",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Geniş tutuş bar curl"
+   ]
+  },
+  {
+   "name": "Wide Grip Lat Pulldown",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Geniş tutuş lat pulldown"
+   ]
+  },
+  {
+   "name": "Wide Grip Pull Up",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Geniş tutuş barfiks"
+   ]
+  },
+  {
+   "name": "Wide Grip Seated Cable Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Geniş tutuş oturarak kablo row"
+   ]
+  },
+  {
+   "name": "Wide Incline Push Up",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Geniş eğimli şınav"
+   ]
+  },
+  {
+   "name": "Wide Push Up",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Geniş şınav"
+   ]
+  },
+  {
+   "name": "Wide Push Ups",
+   "muscle": "Göğüs",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Geniş şınav"
+   ]
+  },
+  {
+   "name": "Wrist Roller",
+   "muscle": "Ön kol",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Bilek sarma"
+   ]
+  },
+  {
+   "name": "Yates Row",
+   "muscle": "Sırt",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Yates row"
+   ]
+  },
+  {
+   "name": "Z Press",
+   "muscle": "Omuz",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Z pres"
+   ]
+  },
+  {
+   "name": "Zercher Squat",
+   "muscle": "Bacak",
+   "unit": "tekrar",
+   "reps": 10,
+   "sets": 3,
+   "rest": 90,
+   "tr": [
+    "Zercher squat"
+   ]
+  },
+  {
+   "name": "Zottman Curl",
+   "muscle": "Biceps",
+   "unit": "tekrar",
+   "reps": 12,
+   "sets": 3,
+   "rest": 60,
+   "tr": [
+    "Zottman curl"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/designermetehan-coder/gym-paper/security/advisories/new
+    about: Report security issues privately.
+  - name: Figma design file
+    url: FIGMA_COMMUNITY_URL
+    about: Design tokens, components and screens.

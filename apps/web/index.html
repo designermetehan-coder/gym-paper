@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ballı</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <meta name="claude:viewport-fit-sides" content="cover">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Ballı" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <script>
+      try { var t = JSON.parse(localStorage.getItem('balli-theme') || '"system"');
+        var host = document.documentElement.getAttribute('data-theme');
+        var d = t === 'dark' || (t === 'system' && (host ? host === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches));
+        document.documentElement.classList.toggle('dark', d); document.documentElement.style.backgroundColor = d ? '#0a0a0a' : '#ffffff'; } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

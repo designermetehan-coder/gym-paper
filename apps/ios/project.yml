@@ -1,0 +1,241 @@
+name: Balli
+options:
+  bundleIdPrefix: com.metehankaya
+  # Kaynak dil Türkçe; İngilizce çeviriler String Catalog'larda (Localizable.xcstrings) ve en.lproj/InfoPlist.strings'te
+  developmentLanguage: tr
+  deploymentTarget:
+    iOS: "18.0"
+    watchOS: "11.0"
+  createIntermediateGroups: true
+  xcodeVersion: "26.0"
+# Signing: copy Config/Signing.local.xcconfig.example to Config/Signing.local.xcconfig
+# and set your own DEVELOPMENT_TEAM (see docs/ios.md).
+configFiles:
+  Debug: Config/Signing.xcconfig
+  Release: Config/Signing.xcconfig
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "1.1.1"
+    CURRENT_PROJECT_VERSION: "1"
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+    # Anahtarlar Türkçe metnin kendisi; büyük/küçük harf farkı sembol çakışması yaratmasın (2 Kas)
+    STRING_CATALOG_GENERATE_SYMBOLS: NO
+    DEAD_CODE_STRIPPING: YES
+    ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS: YES
+    ENABLE_STRICT_OBJC_MSGSEND: YES
+    LOCALIZATION_PREFERS_STRING_CATALOGS: YES
+    CODE_SIGN_STYLE: Automatic
+packages:
+  BalliKit:
+    path: BalliKit
+targets:
+  Balli:
+    type: application
+    platform: iOS
+    sources:
+      - path: Balli
+        excludes: ["Resources/Info-Lite.plist", "Resources/MotionWatch"]
+      - path: Shared
+    dependencies:
+      - package: BalliKit
+      - target: BalliWidgets
+      - target: BalliWatch
+    info:
+      path: Balli/Resources/Info.plist
+      properties:
+        CFBundleDisplayName: GYM Paper
+        CFBundleLocalizations: [tr, en]
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        ITSAppUsesNonExemptEncryption: false
+        CFBundleDevelopmentRegion: tr
+        UILaunchScreen:
+          UIColorName: LaunchBackground
+          UIImageName: LaunchLogo
+          UIImageRespectsSafeAreaInsets: false
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        UIBackgroundModes: [remote-notification, fetch]
+        BGTaskSchedulerPermittedIdentifiers: [com.metehankaya.balli.steps]
+        NSSupportsLiveActivities: true
+        NSHealthShareUsageDescription: "GYM Paper adımlarını, yaktığın kaloriyi, kilonu, boyunu, yaşını ve cinsiyetini Sağlık'tan okuyarak günlük kalori ihtiyacını hesaplar."
+        NSHealthUpdateUsageDescription: "GYM Paper tamamladığın antrenmanları, yaktığın kaloriyi ve girdiğin kiloyu Sağlık'a kaydeder."
+        NSCameraUsageDescription: "Paketli ürünlerin barkodunu ve paylaşılan antrenman QR kodlarını okutmak, besinlerine fotoğraf çekmek için."
+        NSMotionUsageDescription: "GYM Paper, adım widget'ını uygulamayı açmadan güncel tutmak için iPhone'un adım sayarını okur."
+        CFBundleURLTypes:
+          - CFBundleURLName: com.metehankaya.balli
+            CFBundleURLSchemes: [gympaper]
+    entitlements:
+      path: Balli/Resources/Balli.entitlements
+      properties:
+        com.apple.developer.healthkit: true
+        com.apple.developer.healthkit.access: []
+        com.apple.developer.healthkit.background-delivery: true
+        com.apple.developer.icloud-container-identifiers: [iCloud.com.metehankaya.balli]
+        com.apple.developer.icloud-services: [CloudKit]
+        aps-environment: development
+        com.apple.security.application-groups: [group.com.metehankaya.balli]
+        # Dinlenme bildirimi Odak modunda da gelsin (CR-23)
+        com.apple.developer.usernotifications.time-sensitive: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.metehankaya.balli
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        TARGETED_DEVICE_FAMILY: "1"
+        # iPhone Duo API'leri (iOS 27.1+ SDK; Xcode 27.1+ gerekir)
+        SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) DUO_SDK"
+  BalliWidgets:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: BalliWidgets
+        excludes: ["Info.plist", "BalliWidgets.entitlements"]
+      - path: Shared
+    dependencies:
+      - package: BalliKit
+      - sdk: WidgetKit.framework
+      - sdk: SwiftUI.framework
+      - sdk: ActivityKit.framework
+    info:
+      path: BalliWidgets/Info.plist
+      properties:
+        NSMotionUsageDescription: "GYM Paper, adım widget'ını uygulamayı açmadan güncel tutmak için iPhone'un adım sayarını okur."
+        CFBundleDisplayName: GYM Paper
+        CFBundleLocalizations: [tr, en]
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    entitlements:
+      path: BalliWidgets/BalliWidgets.entitlements
+      properties:
+        com.apple.security.application-groups: [group.com.metehankaya.balli]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.metehankaya.balli.widgets
+        TARGETED_DEVICE_FAMILY: "1"
+        SKIP_INSTALL: YES
+  BalliWatch:
+    type: application
+    platform: watchOS
+    sources:
+      - path: BalliWatch
+        excludes: ["Info.plist", "BalliWatch.entitlements"]
+      - path: Balli/Models/Models.swift
+      - path: Balli/Services/Store.swift
+      # Hareket görselleri ve "Nasıl yapılır" metinleri (iPhone ile aynı)
+      - path: Balli/Resources/ExerciseMedia
+      - path: Balli/Resources/exercise-library.json
+      # MoveKit hareketleri: videodan çıkarılmış 6 fps kareler (WT-09) ve ad → slug eşlemesi.
+      # Lisanslı içerik; açık kaynak depoda yok (docs/ios.md › Exercise animations).
+      - path: Balli/Resources/MotionWatch
+        optional: true
+      - path: Balli/Resources/mk-map.json
+    dependencies:
+      - package: BalliKit
+      - target: BalliWatchWidgets
+    info:
+      path: BalliWatch/Info.plist
+      properties:
+        CFBundleDisplayName: GYM Paper
+        CFBundleLocalizations: [tr, en]
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        CFBundleDevelopmentRegion: tr
+        WKApplication: true
+        WKCompanionAppBundleIdentifier: com.metehankaya.balli
+        WKBackgroundModes: [workout-processing]
+        NSHealthShareUsageDescription: "GYM Paper antrenman sırasında nabzını ve yaktığın kaloriyi gösterir."
+        NSHealthUpdateUsageDescription: "GYM Paper saatte tamamladığın antrenmanı Sağlık'a kaydeder."
+    entitlements:
+      path: BalliWatch/BalliWatch.entitlements
+      properties:
+        com.apple.developer.healthkit: true
+        com.apple.developer.healthkit.access: []
+        # Komplikasyonlarla paylaşılan anlık görüntü (TE-12)
+        com.apple.security.application-groups: [group.com.metehankaya.balli]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.metehankaya.balli.watchkitapp
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        TARGETED_DEVICE_FAMILY: "4"
+        SKIP_INSTALL: YES
+  # Saat komplikasyonları: bugünkü antrenman, aralıklı oruç (TE-12 / V1-06)
+  BalliWatchWidgets:
+    type: app-extension
+    platform: watchOS
+    sources:
+      - path: BalliWatchWidgets
+        excludes: ["Info.plist", "BalliWatchWidgets.entitlements"]
+      - path: BalliWatch/WatchSnap.swift
+    dependencies:
+      - package: BalliKit
+      - sdk: WidgetKit.framework
+      - sdk: SwiftUI.framework
+    info:
+      path: BalliWatchWidgets/Info.plist
+      properties:
+        CFBundleDisplayName: GYM Paper
+        CFBundleLocalizations: [tr, en]
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    entitlements:
+      path: BalliWatchWidgets/BalliWatchWidgets.entitlements
+      properties:
+        com.apple.security.application-groups: [group.com.metehankaya.balli]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.metehankaya.balli.watchkitapp.widgets
+        TARGETED_DEVICE_FAMILY: "4"
+        SKIP_INSTALL: YES
+  BalliLite:
+    type: application
+    platform: iOS
+    sources:
+      - path: Balli
+        excludes: ["Resources/Balli.entitlements", "Resources/Info.plist", "Resources/MotionWatch", "Resources/en.lproj", "Resources/tr.lproj"]
+      - path: Shared
+    dependencies:
+      - package: BalliKit
+    info:
+      path: Balli/Resources/Info-Lite.plist
+      properties:
+        CFBundleDisplayName: GYM Paper
+        CFBundleLocalizations: [tr, en]
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        ITSAppUsesNonExemptEncryption: false
+        CFBundleDevelopmentRegion: tr
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        NSCameraUsageDescription: "Paketli ürünlerin barkodunu okutmak ve hareketlerine fotoğraf eklemek için."
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.metehankaya.balli
+        PRODUCT_NAME: BalliLite
+        SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) LITE"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        TARGETED_DEVICE_FAMILY: "1"
+schemes:
+  Balli Watch:
+    build:
+      targets:
+        BalliWatch: all
+    run:
+      config: Debug
+  Balli Lite:
+    build:
+      targets:
+        BalliLite: all
+  Balli:
+    build:
+      targets:
+        Balli: all
+    test:
+      targets:
+        - package: BalliKit/BalliKitTests

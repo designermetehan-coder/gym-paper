@@ -1,0 +1,7 @@
+// Shared signing settings for every target.
+// Put your Apple Developer Team ID in Signing.local.xcconfig (git-ignored).
+// Without it the project still builds for the Simulator.
+
+DEVELOPMENT_TEAM =
+
+#include? "Signing.local.xcconfig"
