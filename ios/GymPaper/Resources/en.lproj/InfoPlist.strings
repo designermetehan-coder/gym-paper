@@ -1,0 +1,6 @@
+/* İzin metinleri (İngilizce) — Türkçe asılları project.yml › GymPaper › info */
+"CFBundleDisplayName" = "GYM Paper";
+"NSHealthShareUsageDescription" = "GYM Paper reads your steps, calories burned, weight, height, age and sex from Health to calculate your daily calorie needs.";
+"NSHealthUpdateUsageDescription" = "GYM Paper saves your completed workouts, calories burned and the weight you enter to Health.";
+"NSCameraUsageDescription" = "To scan barcodes on packaged foods and shared workout QR codes, and to take photos of your foods.";
+"NSMotionUsageDescription" = "GYM Paper reads your iPhone's step counter to keep the steps widget up to date without opening the app.";

@@ -1,0 +1,21 @@
+# Xcode / XcodeGen (project is generated from ios/project.yml)
+ios/GymPaper.xcodeproj/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+.build/
+.swiftpm/
+
+# Local secrets — never commit
+ios/Config/Secrets.xcconfig
+
+# MoveKit (licensed 3D exercise animations) — bring your own license
+ios/GymPaper/Resources/Motion/
+ios/GymPaper/Resources/MotionWatch/
+ios/GymPaper/Resources/mk-map.json
+
+# macOS / tooling
+.DS_Store
+.vercel/
+node_modules/
+*.log

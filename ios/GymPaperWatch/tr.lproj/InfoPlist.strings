@@ -1,0 +1,4 @@
+/* İzin metinleri (Türkçe) — project.yml › GymPaperWatch › info ile aynı tutulmalı */
+"CFBundleDisplayName" = "GYM Paper";
+"NSHealthShareUsageDescription" = "GYM Paper antrenman sırasında nabzını ve yaktığın kaloriyi gösterir.";
+"NSHealthUpdateUsageDescription" = "GYM Paper saatte tamamladığın antrenmanı Sağlık'a kaydeder.";

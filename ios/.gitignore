@@ -1,0 +1,19 @@
+*.xcuserstate
+DerivedData/
+.build/
+GymPaper.xcodeproj/xcuserdata/
+GymPaper.xcodeproj/project.xcworkspace/xcuserdata/
+figma-shots-en/
+figma-shots-en*.txt
+figma-shots-en.command
+session-en.command
+session-en-status.txt
+# Claude geliştirme döngüsü çıktıları
+_scratch/
+dev-*.txt
+dev-shots/
+qa-shots/
+duo-poz/
+duo-poz-status.txt
+qa-build.txt
+build-check.txt

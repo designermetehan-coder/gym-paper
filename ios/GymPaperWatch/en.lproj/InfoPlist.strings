@@ -1,0 +1,4 @@
+/* İzin metinleri (İngilizce) — Türkçe asılları project.yml › GymPaperWatch › info */
+"CFBundleDisplayName" = "GYM Paper";
+"NSHealthShareUsageDescription" = "GYM Paper shows your heart rate and calories burned during your workout.";
+"NSHealthUpdateUsageDescription" = "GYM Paper saves the workouts you complete on your watch to Health.";

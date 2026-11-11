@@ -1,0 +1,251 @@
+name: GymPaper
+# Kimlikler ve isteğe bağlı arka uç: Config/App.xcconfig (+ git'e girmeyen Config/Secrets.xcconfig)
+configFiles:
+  Debug: Config/App.xcconfig
+  Release: Config/App.xcconfig
+options:
+  bundleIdPrefix: com.example
+  # Kaynak dil Türkçe; İngilizce çeviriler String Catalog'larda (Localizable.xcstrings) ve en.lproj/InfoPlist.strings'te
+  developmentLanguage: tr
+  deploymentTarget:
+    iOS: "18.0"
+    watchOS: "11.0"
+  createIntermediateGroups: true
+  xcodeVersion: "26.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "1.2"
+    CURRENT_PROJECT_VERSION: "1"
+    DEVELOPMENT_TEAM: $(GP_TEAM_ID)
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+    # Anahtarlar Türkçe metnin kendisi; büyük/küçük harf farkı sembol çakışması yaratmasın (2 Kas)
+    STRING_CATALOG_GENERATE_SYMBOLS: NO
+    DEAD_CODE_STRIPPING: YES
+    ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS: YES
+    ENABLE_STRICT_OBJC_MSGSEND: YES
+    LOCALIZATION_PREFERS_STRING_CATALOGS: YES
+    CODE_SIGN_STYLE: Automatic
+packages:
+  GymPaperKit:
+    path: GymPaperKit
+targets:
+  GymPaper:
+    type: application
+    platform: iOS
+    sources:
+      - path: GymPaper
+        excludes: ["Resources/Info-Lite.plist", "Resources/MotionWatch"]
+      - path: Shared
+    dependencies:
+      - package: GymPaperKit
+      - target: GymPaperWidgets
+      - target: GymPaperWatch
+    info:
+      path: GymPaper/Resources/Info.plist
+      properties:
+        GPBundleBase: $(GP_BUNDLE_ID)
+        GPSupabaseHost: $(GP_SUPABASE_HOST)
+        GPSupabaseAnonKey: $(GP_SUPABASE_ANON_KEY)
+        CFBundleDisplayName: GYM Paper
+        CFBundleLocalizations: [tr, en]
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        ITSAppUsesNonExemptEncryption: false
+        CFBundleDevelopmentRegion: tr
+        UILaunchScreen:
+          UIColorName: LaunchBackground
+          UIImageName: LaunchLogo
+          UIImageRespectsSafeAreaInsets: false
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        UIBackgroundModes: [remote-notification, fetch]
+        BGTaskSchedulerPermittedIdentifiers: [$(GP_BUNDLE_ID).steps]
+        NSSupportsLiveActivities: true
+        NSHealthShareUsageDescription: "GYM Paper adımlarını, yaktığın kaloriyi, kilonu, boyunu, yaşını ve cinsiyetini Sağlık'tan okuyarak günlük kalori ihtiyacını hesaplar."
+        NSHealthUpdateUsageDescription: "GYM Paper tamamladığın antrenmanları, yaktığın kaloriyi ve girdiğin kiloyu Sağlık'a kaydeder."
+        NSCameraUsageDescription: "Paketli ürünlerin barkodunu ve paylaşılan antrenman QR kodlarını okutmak, besinlerine fotoğraf çekmek için."
+        NSMotionUsageDescription: "GYM Paper, adım widget'ını uygulamayı açmadan güncel tutmak için iPhone'un adım sayarını okur."
+        CFBundleURLTypes:
+          - CFBundleURLName: $(GP_BUNDLE_ID)
+            CFBundleURLSchemes: [gympaper]
+    entitlements:
+      path: GymPaper/Resources/GymPaper.entitlements
+      properties:
+        com.apple.developer.healthkit: true
+        com.apple.developer.healthkit.access: []
+        com.apple.developer.healthkit.background-delivery: true
+        com.apple.developer.icloud-container-identifiers: [iCloud.$(GP_BUNDLE_ID)]
+        com.apple.developer.icloud-services: [CloudKit]
+        aps-environment: production
+        com.apple.security.application-groups: [group.$(GP_BUNDLE_ID)]
+        # Dinlenme bildirimi Odak modunda da gelsin (CR-23)
+        com.apple.developer.usernotifications.time-sensitive: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(GP_BUNDLE_ID)
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        TARGETED_DEVICE_FAMILY: "1"
+        # iPhone Duo API'leri (iOS 27.1+ SDK; Xcode 27.1+ gerekir)
+        SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) DUO_SDK"
+  GymPaperWidgets:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: GymPaperWidgets
+        excludes: ["Info.plist", "GymPaperWidgets.entitlements"]
+      - path: Shared
+    dependencies:
+      - package: GymPaperKit
+      - sdk: WidgetKit.framework
+      - sdk: SwiftUI.framework
+      - sdk: ActivityKit.framework
+    info:
+      path: GymPaperWidgets/Info.plist
+      properties:
+        GPBundleBase: $(GP_BUNDLE_ID)
+        GPSupabaseHost: $(GP_SUPABASE_HOST)
+        GPSupabaseAnonKey: $(GP_SUPABASE_ANON_KEY)
+        NSMotionUsageDescription: "GYM Paper, adım widget'ını uygulamayı açmadan güncel tutmak için iPhone'un adım sayarını okur."
+        CFBundleDisplayName: GYM Paper
+        CFBundleLocalizations: [tr, en]
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    entitlements:
+      path: GymPaperWidgets/GymPaperWidgets.entitlements
+      properties:
+        com.apple.security.application-groups: [group.$(GP_BUNDLE_ID)]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(GP_BUNDLE_ID).widgets
+        TARGETED_DEVICE_FAMILY: "1"
+        SKIP_INSTALL: YES
+  GymPaperWatch:
+    type: application
+    platform: watchOS
+    sources:
+      - path: GymPaperWatch
+        excludes: ["Info.plist", "GymPaperWatch.entitlements"]
+      - path: GymPaper/Models/Models.swift
+      - path: GymPaper/Services/Store.swift
+      # Hareket görselleri ve "Nasıl yapılır" metinleri (iPhone ile aynı)
+      - path: GymPaper/Resources/ExerciseMedia
+      - path: GymPaper/Resources/exercise-library.json
+    dependencies:
+      - package: GymPaperKit
+      - target: GymPaperWatchWidgets
+    info:
+      path: GymPaperWatch/Info.plist
+      properties:
+        GPBundleBase: $(GP_BUNDLE_ID)
+        GPSupabaseHost: $(GP_SUPABASE_HOST)
+        GPSupabaseAnonKey: $(GP_SUPABASE_ANON_KEY)
+        CFBundleDisplayName: GYM Paper
+        CFBundleLocalizations: [tr, en]
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        CFBundleDevelopmentRegion: tr
+        WKApplication: true
+        WKCompanionAppBundleIdentifier: $(GP_BUNDLE_ID)
+        WKBackgroundModes: [workout-processing]
+        NSHealthShareUsageDescription: "GYM Paper antrenman sırasında nabzını ve yaktığın kaloriyi gösterir."
+        NSHealthUpdateUsageDescription: "GYM Paper saatte tamamladığın antrenmanı Sağlık'a kaydeder."
+    entitlements:
+      path: GymPaperWatch/GymPaperWatch.entitlements
+      properties:
+        com.apple.developer.healthkit: true
+        com.apple.developer.healthkit.access: []
+        # Komplikasyonlarla paylaşılan anlık görüntü (TE-12)
+        com.apple.security.application-groups: [group.$(GP_BUNDLE_ID)]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(GP_BUNDLE_ID).watchkitapp
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        TARGETED_DEVICE_FAMILY: "4"
+        SKIP_INSTALL: YES
+  # Saat komplikasyonları: bugünkü antrenman, aralıklı oruç (TE-12 / V1-06)
+  GymPaperWatchWidgets:
+    type: app-extension
+    platform: watchOS
+    sources:
+      - path: GymPaperWatchWidgets
+        excludes: ["Info.plist", "GymPaperWatchWidgets.entitlements"]
+      - path: GymPaperWatch/WatchSnap.swift
+    dependencies:
+      - package: GymPaperKit
+      - sdk: WidgetKit.framework
+      - sdk: SwiftUI.framework
+    info:
+      path: GymPaperWatchWidgets/Info.plist
+      properties:
+        GPBundleBase: $(GP_BUNDLE_ID)
+        GPSupabaseHost: $(GP_SUPABASE_HOST)
+        GPSupabaseAnonKey: $(GP_SUPABASE_ANON_KEY)
+        CFBundleDisplayName: GYM Paper
+        CFBundleLocalizations: [tr, en]
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    entitlements:
+      path: GymPaperWatchWidgets/GymPaperWatchWidgets.entitlements
+      properties:
+        com.apple.security.application-groups: [group.$(GP_BUNDLE_ID)]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(GP_BUNDLE_ID).watchkitapp.widgets
+        TARGETED_DEVICE_FAMILY: "4"
+        SKIP_INSTALL: YES
+  GymPaperLite:
+    type: application
+    platform: iOS
+    sources:
+      - path: GymPaper
+        excludes: ["Resources/GymPaper.entitlements", "Resources/Info.plist", "Resources/MotionWatch", "Resources/en.lproj", "Resources/tr.lproj"]
+      - path: Shared
+    dependencies:
+      - package: GymPaperKit
+    info:
+      path: GymPaper/Resources/Info-Lite.plist
+      properties:
+        GPBundleBase: $(GP_BUNDLE_ID)
+        GPSupabaseHost: $(GP_SUPABASE_HOST)
+        GPSupabaseAnonKey: $(GP_SUPABASE_ANON_KEY)
+        CFBundleDisplayName: GYM Paper
+        CFBundleLocalizations: [tr, en]
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        ITSAppUsesNonExemptEncryption: false
+        CFBundleDevelopmentRegion: tr
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        NSCameraUsageDescription: "Paketli ürünlerin barkodunu okutmak ve hareketlerine fotoğraf eklemek için."
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(GP_BUNDLE_ID)
+        PRODUCT_NAME: GymPaperLite
+        SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) LITE"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        TARGETED_DEVICE_FAMILY: "1"
+schemes:
+  GymPaper Watch:
+    build:
+      targets:
+        GymPaperWatch: all
+    run:
+      config: Debug
+  GymPaper Lite:
+    build:
+      targets:
+        GymPaperLite: all
+  GymPaper:
+    build:
+      targets:
+        GymPaper: all
+    test:
+      targets:
+        - package: GymPaperKit/GymPaperKitTests

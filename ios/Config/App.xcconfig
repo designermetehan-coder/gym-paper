@@ -1,0 +1,11 @@
+// GYM Paper build configuration.
+// 1) Set your own bundle id root and Apple Developer Team ID below (or in Secrets.xcconfig).
+// 2) Optional backend (FatSecret food search proxy + social leaderboard): see Secrets.example.xcconfig.
+//    Leave it empty and the app runs fully offline with the built-in food list + Open Food Facts.
+
+GP_BUNDLE_ID = com.example.gympaper
+GP_TEAM_ID =
+GP_SUPABASE_HOST =
+GP_SUPABASE_ANON_KEY =
+
+#include? "Secrets.xcconfig"

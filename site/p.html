@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="color-scheme" content="light">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paylaşılan antrenman · GYM Paper</title>
+<meta name="robots" content="noindex">
+<meta property="og:title" content="GYM Paper antrenmanı">
+<meta property="og:description" content="Sana bir antrenman paylaşıldı. GYM Paper'da açıp kendi programlarına ekleyebilirsin.">
+<meta property="og:image" content="/img/og.png">
+<link rel="icon" href="/img/favicon.png">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400..800;1,600..800&family=JetBrains+Mono:ital,wght@1,700..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+<style>
+  .share{min-height:100svh;display:grid;place-items:center;padding:32px 16px;text-align:center}
+  .share .box{max-width:420px}
+  .share img.ic{width:88px;height:88px;border-radius:22px;margin:0 auto 20px;display:block}
+  .share h1{font-size:28px;margin:0 0 8px}
+  .share p{color:var(--mut);margin:0 0 24px}
+  .share .btns{display:grid;gap:10px}.share .btn{justify-content:center}
+</style>
+</head>
+<body>
+<main class="share"><div class="box">
+  <img class="ic" src="/img/icon.png" alt="GYM Paper">
+  <h1 id="t">Sana bir antrenman paylaşıldı</h1>
+  <p>GYM Paper'da açınca antrenmanı önizleyip kendi programlarına ekleyebilirsin.</p>
+  <div class="btns">
+    <a class="btn" id="open" href="#">GYM Paper'da aç</a>
+    <a class="btn btn-ghost" href="https://apps.apple.com/app/id6826874026">App Store'dan indir</a>
+  </div>
+</div></main>
+<script>
+  (function () {
+    var d = (location.hash || "").slice(1);
+    var a = document.getElementById("open");
+    if (!d) { a.style.display = "none"; document.getElementById("t").textContent = "Bağlantı eksik"; return; }
+    var app = "gympaper://p?d=" + encodeURIComponent(d);
+    a.href = app;
+    // iPhone'da uygulamayı hemen açmayı dene
+    if (/iPhone|iPad|iPod/.test(navigator.userAgent)) setTimeout(function () { location.href = app; }, 300);
+  })();
+</script>
+</body>
+</html>
