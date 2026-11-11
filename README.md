@@ -12,7 +12,7 @@
 <p align="center">
   <a href="https://apps.apple.com/app/id6826874026">App Store</a> ·
   <a href="https://gympaper.vercel.app">Website</a> ·
-  <a href="FIGMA_COMMUNITY_URL">Figma file</a> ·
+  <a href="https://www.figma.com/community/file/1702307099057342418">Figma file</a> ·
   <a href="DESIGN.md">Design doc</a>
 </p>
 
@@ -124,7 +124,7 @@ Server code lives in [`supabase/`](supabase): `social.sql` (team leaderboard, RP
 ## Design
 
 - **Figma Community file** — every iPhone screen and state, Apple Watch, widgets, complications,
-  the landing page and the design system: [FIGMA_COMMUNITY_URL](FIGMA_COMMUNITY_URL)
+  the landing page and the design system: [https://www.figma.com/community/file/1702307099057342418](https://www.figma.com/community/file/1702307099057342418)
 - **Design doc** — problem, principles, decisions and trade-offs: [DESIGN.md](DESIGN.md)
 
 ## Not included
